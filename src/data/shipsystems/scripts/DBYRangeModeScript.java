@@ -8,7 +8,7 @@ public class DBYRangeModeScript implements ShipSystemStatsScript
 
 
 	private static final float BONUS_PERCENT = 50f;
-	private static final float WEAPON_PENALTY = 65f;
+	private static final float WEAPON_PENALTY = 75f;
 	private static final float STAT_MODIFIER = 25f;
 
 
