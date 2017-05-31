@@ -1,0 +1,11 @@
+{
+  "id":"SWRebalanced",
+  "name":"Star Wars Rebalanced",
+  "author":"joaonunes",
+  "version":"0.5",
+  "description":"The Galactic Empire and Rebel Alliance have joined the Starsector universe. LazyLib Required!",
+  "gameVersion":"0.8a",
+  "totalConversion":"false",
+  "modPlugin":"data.scripts.SWRebalancedPlugin",
+  "jars":["jars/Star_Wars_Rebalanced.jar"],
+}

@@ -1,0 +1,33 @@
+{
+  "displayName": "Light",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "yt_1300",
+  "hullMods": [
+  ],
+  "variantId": "millenium_falcon",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "missle_tube_4",
+        "WS0004": "missle_tube_4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "ag_2g"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ag_2g"
+      }
+    }
+  ]
+}

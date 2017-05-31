@@ -1,0 +1,35 @@
+[2017/05/31]
+  (v0.4.1)
+    - Fixed AddMarketplace error;
+	- Added some ships to the menu's background and simulator;
+
+[2017/05/16]
+  (v0.4)
+    - Mon Calamari portraits and planet;
+    - Some new custom sounds;
+    - Reworked Hullmods. More to come;
+    - Re-added some ships to fleet compositions;
+    - First balance revision;
+
+[2017/05/15]
+  (v0.3.1)
+    - Minor tweak to fuel consumption to make this mod slightly more playable;
+
+[2017/05/10]
+  (v0.3)
+    - Code cleanup and minor tweaks;
+    - Added female portraits;
+
+  (v0.2.1)
+    - Quick patch to fix initial relationship values with added factions;
+
+  (v0.2)
+    - Added Yavin Star System;
+    - Edited existing star systems' planet description and textures;
+    - Added Version Checker compatibility;
+
+[2017/05/09]
+  (v0.1)
+    - Initial release;
+    - Basic Starsector 0.8a compatibility;
+    - Added placeholder planets for both factions;

@@ -1,0 +1,1111 @@
+{
+  "bounds": [
+    299.5,
+    -6,
+    -262.5,
+    -144,
+    -296.5,
+    -7.5,
+    -296.5,
+    7.5,
+    -262.5,
+    144,
+    299.5,
+    6
+  ],
+  "builtInWeapons": {
+    "WS0001": "imp_med_turbo_4x",
+    "WS0002": "imp_med_turbo_4x",
+    "WS0003": "imp_med_turbo_4x",
+    "WS0004": "imp_med_turbo_4x",
+    "WS0005": "imp_med_turbo_4x",
+    "WS0006": "imp_med_turbo_4x",
+    "WS0007": "imp_med_turbo_4x",
+    "WS0008": "imp_med_turbo_4x",
+    "WS0009": "imp_med_turbo_4x",
+    "WS0010": "imp_med_turbo_4x",
+    "WS0011": "imp_med_turbo_4x",
+    "WS0012": "imp_med_turbo_4x",
+    "WS0013": "imp_med_turbo_4x",
+    "WS0014": "imp_med_turbo_4x",
+    "WS0015": "imp_medium_turbo",
+    "WS0016": "imp_medium_turbo",
+    "WS0017": "imp_medium_turbo",
+    "WS0018": "imp_medium_turbo",
+    "WS0019": "imp_medium_turbo",
+    "WS0020": "imp_medium_turbo",
+    "WS0021": "imp_medium_turbo",
+    "WS0022": "imp_medium_turbo",
+    "WS0023": "imp_medium_turbo",
+    "WS0024": "imp_medium_turbo",
+    "WS0025": "imp_medium_turbo",
+    "WS0026": "imp_med_turbo_4x",
+    "WS0027": "imp_med_turbo_4x",
+    "WS0028": "imp_med_turbo_4x",
+    "WS0029": "imp_med_turbo_4x",
+    "WS0030": "imp_med_turbo_4x",
+    "WS0031": "imp_med_turbo_4x",
+    "WS0032": "imp_medium_turbo",
+    "WS0033": "imp_medium_turbo",
+    "WS0034": "imp_medium_turbo",
+    "WS0035": "imp_medium_turbo",
+    "WS0036": "imp_medium_turbo",
+    "WS0037": "imp_medium_turbo",
+    "WS0038": "imp_medium_turbo",
+    "WS0039": "imp_medium_turbo",
+    "WS0040": "imp_med_turbo_4x",
+    "WS0041": "imp_med_turbo_4x",
+    "WS0042": "imp_medium_turbo",
+    "WS0043": "imp_medium_turbo",
+    "WS0044": "imp_medium_turbo",
+    "WS0045": "imp_medium_turbo",
+    "WS0046": "imp_pd_cannon",
+    "WS0047": "imp_pd_cannon",
+    "WS0048": "imp_pd_cannon",
+    "WS0049": "imp_pd_cannon",
+    "WS0050": "imp_pd_cannon",
+    "WS0051": "imp_pd_cannon",
+    "WS0052": "imp_pd_cannon",
+    "WS0053": "imp_pd_cannon",
+    "WS0054": "imp_pd_cannon",
+    "WS0055": "imp_pd_cannon",
+    "WS0056": "imp_pd_gun",
+    "WS0057": "imp_pd_gun",
+    "WS0058": "imp_pd_gun",
+    "WS0059": "imp_pd_gun",
+    "WS0060": "imp_pd_gun",
+    "WS0061": "imp_pd_gun",
+    "WS0062": "imp_pd_gun",
+    "WS0063": "imp_pd_gun",
+    "WS0064": "imp_pd_gun",
+    "WS0065": "imp_pd_gun",
+    "WS0066": "imp_pd_gun",
+    "WS0067": "imp_pd_gun",
+    "WS0069": "imp_pd_gun",
+    "WS0070": "imp_pd_gun",
+    "WS0071": "imp_pd_gun",
+    "WS0072": "imp_pd_gun",
+    "WS0073": "imp_pd_gun",
+    "WS0074": "imp_pd_gun",
+    "WS0075": "imp_pd_gun",
+    "WS0077": "imp_pd_gun"
+  },
+  "center": [
+    144.5,
+    300
+  ],
+  "collisionRadius": 312.08493,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 47,
+      "length": 36.5,
+      "location": [
+        -280.5,
+        70
+      ],
+      "style": "HIGH_TECH",
+      "width": 47
+    },
+    {
+      "angle": -180,
+      "contrailSize": 47,
+      "length": 36.5,
+      "location": [
+        -280.5,
+        -70
+      ],
+      "style": "HIGH_TECH",
+      "width": 47
+    }
+  ],
+  "height": 600,
+  "hullId": "vindicator_cruiser",
+  "hullName": "Vindicator",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 308.233673,
+  "spriteName": "graphics/empire/ships/immobilizer_418.png",
+  "style": "GALACTIC_EMPIRE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        88.5,
+        -0,
+        134.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        -240.5,
+        -86.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        -240.5,
+        86.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0003",
+      "locations": [
+        -222,
+        87
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0004",
+      "locations": [
+        -222,
+        -87
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0005",
+      "locations": [
+        -203,
+        87
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0006",
+      "locations": [
+        -203,
+        -87
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0007",
+      "locations": [
+        -211.5,
+        81.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0008",
+      "locations": [
+        -211.5,
+        -81.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0009",
+      "locations": [
+        -231.5,
+        80.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0010",
+      "locations": [
+        -231.5,
+        -80.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 206.345108,
+      "id": "WS0025",
+      "locations": [
+        -284.5,
+        2
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0011",
+      "locations": [
+        -251.5,
+        80.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0012",
+      "locations": [
+        -251.5,
+        -80.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0013",
+      "locations": [
+        -189,
+        81.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0014",
+      "locations": [
+        -189,
+        -81.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 80.21759,
+      "arc": 180,
+      "id": "WS0019",
+      "locations": [
+        113,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -80.21759,
+      "arc": 180,
+      "id": "WS0020",
+      "locations": [
+        113,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 80.21759,
+      "arc": 180,
+      "id": "WS0015",
+      "locations": [
+        91.5,
+        23.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -80.21759,
+      "arc": 180,
+      "id": "WS0016",
+      "locations": [
+        91.5,
+        -23.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 80.21759,
+      "arc": 180,
+      "id": "WS0017",
+      "locations": [
+        137.5,
+        16
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -80.21759,
+      "arc": 180,
+      "id": "WS0018",
+      "locations": [
+        137.5,
+        -16
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 160.820999,
+      "arc": 180,
+      "id": "WS0021",
+      "locations": [
+        81,
+        15
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -160.820999,
+      "arc": 180,
+      "id": "WS0022",
+      "locations": [
+        81,
+        -15
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 178.492569,
+      "arc": 180,
+      "id": "WS0023",
+      "locations": [
+        145.5,
+        -1
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 180,
+      "id": "WS0024",
+      "locations": [
+        78,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0027",
+      "locations": [
+        250,
+        3
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0028",
+      "locations": [
+        250,
+        -3
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0026",
+      "locations": [
+        238.5,
+        3.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0029",
+      "locations": [
+        238.5,
+        -3.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 180,
+      "id": "WS0030",
+      "locations": [
+        228.5,
+        4
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0031",
+      "locations": [
+        228.5,
+        -4
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 74.407188,
+      "arc": 180,
+      "id": "WS0034",
+      "locations": [
+        -247,
+        141
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -74.407188,
+      "arc": 180,
+      "id": "WS0035",
+      "locations": [
+        -247,
+        -141
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 74.407188,
+      "arc": 180,
+      "id": "WS0036",
+      "locations": [
+        -235,
+        138
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -74.407188,
+      "arc": 180,
+      "id": "WS0037",
+      "locations": [
+        -235,
+        -138
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 225.428818,
+      "id": "WS0043",
+      "locations": [
+        -116.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 225.428818,
+      "id": "WS0042",
+      "locations": [
+        -70,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 225.428818,
+      "id": "WS0044",
+      "locations": [
+        -85,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 225.428818,
+      "id": "WS0045",
+      "locations": [
+        -101,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -74.407188,
+      "arc": 180,
+      "id": "WS0032",
+      "locations": [
+        -9.5,
+        -83.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 74.407188,
+      "arc": 180,
+      "id": "WS0033",
+      "locations": [
+        -9.5,
+        83.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -74.407188,
+      "arc": 180,
+      "id": "WS0038",
+      "locations": [
+        8.5,
+        -78.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 74.407188,
+      "arc": 180,
+      "id": "WS0039",
+      "locations": [
+        8.5,
+        78.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0040",
+      "locations": [
+        -246,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0041",
+      "locations": [
+        -199,
+        -1
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 146.821487,
+      "arc": 223.422668,
+      "id": "WS0048",
+      "locations": [
+        -263.5,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -146.821487,
+      "arc": 223.422668,
+      "id": "WS0049",
+      "locations": [
+        -263.5,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 223.422668,
+      "id": "WS0047",
+      "locations": [
+        18.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 223.422668,
+      "id": "WS0046",
+      "locations": [
+        198,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 223.422668,
+      "id": "WS0050",
+      "locations": [
+        9.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 223.422668,
+      "id": "WS0051",
+      "locations": [
+        186.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 166.373001,
+      "arc": 180,
+      "id": "WS0052",
+      "locations": [
+        -280,
+        75.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -166.373001,
+      "arc": 180,
+      "id": "WS0053",
+      "locations": [
+        -280,
+        -75.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 23.498566,
+      "arc": 223.422668,
+      "id": "WS0054",
+      "locations": [
+        -152.5,
+        33.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -23.498566,
+      "arc": 223.422668,
+      "id": "WS0055",
+      "locations": [
+        -152.5,
+        -33.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0056",
+      "locations": [
+        -29.5,
+        43
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0057",
+      "locations": [
+        -29.5,
+        -43
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0058",
+      "locations": [
+        -145.5,
+        96.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0059",
+      "locations": [
+        -145.5,
+        -96.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0060",
+      "locations": [
+        -117,
+        70
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0061",
+      "locations": [
+        -117,
+        -70
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0062",
+      "locations": [
+        -79,
+        88
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0063",
+      "locations": [
+        -79,
+        -88
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0064",
+      "locations": [
+        -229.5,
+        46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0065",
+      "locations": [
+        -229.5,
+        -46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0066",
+      "locations": [
+        -206.5,
+        118.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0067",
+      "locations": [
+        -206.5,
+        -118.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0068",
+      "locations": [
+        -31,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 360,
+      "id": "WS0069",
+      "locations": [
+        -146.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0070",
+      "locations": [
+        39,
+        41.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0071",
+      "locations": [
+        39,
+        -41.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0072",
+      "locations": [
+        -75.5,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0073",
+      "locations": [
+        -75.5,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0074",
+      "locations": [
+        168.5,
+        30.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0075",
+      "locations": [
+        168.5,
+        -30.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0076",
+      "locations": [
+        113,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0077",
+      "locations": [
+        282.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 74.407188,
+      "arc": 180,
+      "id": "WS0078",
+      "locations": [
+        -0.5,
+        73
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -74.407188,
+      "arc": 180,
+      "id": "WS0079",
+      "locations": [
+        -0.5,
+        -73
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0080",
+      "locations": [
+        -175.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 289
+}

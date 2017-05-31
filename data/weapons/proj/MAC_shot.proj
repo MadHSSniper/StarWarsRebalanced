@@ -1,0 +1,17 @@
+{
+	"id":"MAC_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":120.0,
+	"hitGlowRadius":250,
+	"width":19.0,
+	"fadeTime":0,
+	"fringeColor":[100,100,255,200],
+	"coreColor":[47,248,255,255],
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png",
+				
+}

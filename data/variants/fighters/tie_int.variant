@@ -1,0 +1,27 @@
+{
+  "displayName": "Series",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "tie_interceptor",
+  "hullMods": [
+  ],
+  "variantId": "tie_int",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "tie_laser",
+        "right_wing_laser2": "tie_laser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tie_laser",
+        "left_wing_laser1": "tie_laser"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"id":"sw_laser_ion_shot",
+	"specClass":"projectile",
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"spawnType":"BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":27.0,
+	"width":11.0,
+	"fadeTime":0.75,
+	"fringeColor":[25,100,155,255],
+	"coreColor":[225,225,255,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0
+}

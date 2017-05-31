@@ -1,0 +1,84 @@
+name,id,tier,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,number
+R9X Heavy Laser Cannon,ftr_heavy_cannon,1,500,500,,15,,0,0,0,,ENERGY,0,,0,0.75,2,0.1,0,0,1,0.5,,1100,,,,"ANTI_FTR, USE_VS_FRIGATES, STRIKE",72.9
+TIE Laser,tie_laser,0,100,500,,8,,0,0,0,,ENERGY,0,,0,0.5,1,,0,0,1,0.5,,1100,,,,"ANTI_FTR, USE_VS_FRIGATES",75
+Starfighter Ion Cannon,ftr_ion_cannon,2,2500,500,,0,50,0,0,0,,ENERGY,0,,0,1,2,0.1,0,0,1,0.5,,1100,,,,"ANTI_FTR, USE_VS_FRIGATES, STRIKE",71
+Starfighter Laser Cannon,ftr_laser_cannon,0,500,500,,7,,0,0,0,,ENERGY,0,,0,0.25,1,0,0,0,1,0.5,,1100,,,,"ANTI_FTR, USE_VS_FRIGATES",76.2
+Blaster Cannon,blaster_cannon,0,250,500,,5,,0,0,0,,ENERGY,0,,0,0.5,6,0.01,0,0,1,0.5,,1100,,,,ANTI_FTR,76.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AG-2G quad laser cannon,ag_2g,1,500,1250,,10,,0,100,0,,ENERGY,0,,0,,4,0.25,1,5,1,0.5,,1100,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",71.466
+Tractor Beam,tractor_beam,2,1000,0,0,,,0,100,0,,ENERGY,,,0,1,,,,,,,10000,,,,,ANTI_FTR,33333333
+Light Tractor Beam,light_tractor_beam,2,1000,0,0,,,0,100,0,,ENERGY,,,0,1,,,,,,,10000,,,,,ANTI_FTR,33333333
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TIE Missle Tube,tie_missle,2,200,1500,,1000,,50,0,0,8,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,1000,10,5000,"ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM",81.04
+Missle Tube (18),missle_tube_18,2,200,1500,,1000,,50,0,0,18,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,20,750,"ANTI_FTR, DO_NOT_AIM",81.04
+Torpedo Tube (12),torp_tube_12,2,600,1500,,2500,,50,0,0,12,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,30,1000,"STRIKE, ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM",80.06
+Torpedo Tube (4),torp_tube_4,2,200,1500,,2500,,50,0,0,4,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,30,1000,"STRIKE, ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM",81.04
+Torpedo Tube (3),torp_tube_3,2,200,1500,,2500,,50,0,0,3,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,30,1000,"STRIKE, ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM",81.04
+Missle Tube (4),missle_tube_4,2,200,1500,,1000,,50,0,0,4,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,20,750,"ANTI_FTR, DO_NOT_AIM",81.04
+Torpedo Tube (8),torp_tube_8,2,600,1500,,2500,,50,0,0,8,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,30,1000,"STRIKE, ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM",80.06
+TIE Torpedo Tube,tie_torp,2,600,1500,,2500,,50,0,0,6,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,30,1000,"STRIKE, ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM",80.06
+Dummy Proton Torpedo,proton_torp_dummy,3,1000,1500,,0,,50,0,0,8,HIGH_EXPLOSIVE,0,,0,10,1,,,,,,,1500,500,100,1500,"STRIKE, USE_VS_FRIGATES, ANTI_FTR, DO_NOT_AIM",80.1
+Missle Tube (6),missle_tube_6,2,200,1500,,1000,,50,0,0,6,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,,,1500,500,20,750,"ANTI_FTR, DO_NOT_AIM",81.04
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Proton Torpedo,proton_torp_heavy,3,1000,3000,,2500,,500,0,0,100,HIGH_EXPLOSIVE,0,,0,15,1,,,,,,,1500,500,100,1500,"STRIKE, USE_VS_FRIGATES, ANTI_FTR, DO_NOT_AIM",80.1
+Diamond Boron Missile,d_missile,3,200,3000,,3500,,500,0,0,12,HIGH_EXPLOSIVE,0,,0,15,1,,,,,,,1500,500,75,1000,"STRIKE, USE_VS_FRIGATES, ANTI_FTR, DO_NOT_AIM",81.04
+Assault Concussion Missle,concussion_missle_assault,3,200,3000,,3000,,500,0,0,100,HIGH_EXPLOSIVE,0,,0,15,1,,,,,,,1500,500,75,1250,"STRIKE, USE_VS_FRIGATES, ANTI_FTR, DO_NOT_AIM",81.04
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bombardment Turbolaser,bombardment_turbolaser,3,3000,10000,,600,,200,10,0,,ENERGY,0,,0,6,4,0.2,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",70.5
+Bombardment Cannon,bombardment_battery,3,3000,10000,,1000,,200,10,0,,ENERGY,0,,0,6,4,0.2,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",70.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Octuple Barbette Turbolaser,imp_barbette_turbo,3,3000,2500,,50,,100,15,0,,ENERGY,0,,0,7.5,8,0.15,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",70.3
+Heavy Turbolaser Main Battery,imp_main_battery,3,3000,2500,,75,,100,15,0,,ENERGY,0,,0,7.5,4,0.2,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",70.5
+Heavy Ion Main Battery,imp_ion_battery,3,2500,3000,,0,4250,100,20,0,,ENERGY,0,,0,10,4,0.1,,,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",71.265
+DBY-920 Overcharged Turbocannon,dby_920,3,3000,3500,,100,,150,50,0,,ENERGY,0,,0,7.5,2,0.2,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",70.59898
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DBY-827 Heavy Turbolaser,dby_827,3,3000,3500,,75,,75,200,0,,ENERGY,0,,0,1,2,0.1,1,2,0.25,0.1,,1500,,,,"STRIKE, USE_VS_FRIGATES, ANTI_FTR",70.5
+Heavy Turbolaser Cannon,blue_heavy_turbo,3,3000,2000,,35,,75,50,0,,ENERGY,0,,0,3.5,2,0.15,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",70.3
+Turbolaser Cannon (Mod),reb_turbo_cannon,3,3000,2000,,30,,75,200,0,,ENERGY,0,,0,2.5,2,0.15,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES, ANTI_FTR",70.3
+Quad Heavy Turbolaser,imp_heavy_turbo_4x,3,3000,1750,,35,,75,20,0,,ENERGY,0,,0,5,4,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, ANTI_FTR, STRIKE",70.4
+Heavy Turbolaser Battery,imp_heavy_turbo,3,3000,1750,,35,,75,20,0,,ENERGY,0,,0,5,2,0.15,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",70.3
+Ion Pulse Cannon,ion_pulse_cannon,3,2500,4000,,0,5000,0,10,0,,ENERGY,0,,0,12,2,0.25,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",71.26599
+Heavy Ion Cannon,imp_ion_heavy,2,2500,2500,,0,3500,0,15,0,,ENERGY,0,,0,8,2,0.1,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES",71
+Ion Cannon (Mod),reb_ion_cannon,2,2500,2750,,0,2500,0,200,0,,ENERGY,0,,0,7.5,2,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, STRIKE",71.23
+Ion Cannon,imp_ion_cannon,2,2500,1500,,0,2500,0,25,0,,ENERGY,0,,0,5,2,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, STRIKE",71
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Point Defense System,blue_pd_cannon,1,600,750,,5,,2,150,0,,ENERGY,0,,0,0.25,4,0.1,0,5,1,0.5,,1500,,,,"PD, ANTI_FTR",77
+Point Defense Gun,imp_pd_gun,1,600,500,,5,,2,150,0,,ENERGY,0,,0,0.25,2,0.05,0,5,1,0.5,,1500,,,,"PD, ANTI_FTR",77
+Point Defense Cannon,imp_pd_cannon,1,600,750,,10,,2,150,0,,ENERGY,0,,0,0.25,4,0.05,0,5,1,0.5,,1500,,,,"PD, ANTI_FTR",77
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Turbolaser Battery (M),reb_turbo_batt_m,2,2500,1500,,20,,25,60,0,,ENERGY,0,,0,1,2,0.1,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES, ANTI_FTR",70.23
+Ion Cannon (M),reb_ion_cannon_m,2,2500,1750,,0,2500,0,60,0,,ENERGY,0,,0,5,2,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, STRIKE",71.23
+Turbolaser Cannon (M),reb_turbo_cannon_m,3,3000,1500,,20,,75,35,0,,ENERGY,0,,0,1.25,2,0.15,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES, ANTI_FTR",70.3
+Quad Turbolaser Cannon,imp_turbo_cannon_4x,2,2500,1250,,20,,25,45,0,,ENERGY,0,,0,1.5,4,0.15,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, ANTI_FTR, STRIKE",70
+Quad Turbolaser Battery,imp_turbo_batt_4x,2,2500,1500,,25,,25,35,0,,ENERGY,0,,0,1.5,4,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, ANTI_FTR, STRIKE, PD",70
+Turbolaser Battery,imp_turbo_batt,2,2500,1500,,25,,25,35,0,,ENERGY,0,,0,1.5,2,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, ANTI_FTR, STRIKE",70
+Turbolaser Battery (Mod),reb_turbo_batt,2,2500,1750,,20,,25,60,0,,ENERGY,0,,0,1,2,0.1,1,5,1,0.5,,1500,,,,"STRIKE, USE_VS_FRIGATES, ANTI_FTR",70.23
+Dual Turbolaser,reb_dual_turbo,2,2500,1250,,20,,25,60,0,,ENERGY,0,,0,1,2,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, ANTI_FTR, STRIKE",70.3333
+Single Turbolaser,reb_turbo_single,2,2500,1250,,20,,25,60,0,,ENERGY,0,,0,1,1,0,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, ANTI_FTR, PD",70.3333
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Turbolaser Cannon,imp_turbo_cannon,2,2500,1250,,20,,25,50,0,,ENERGY,0,,0,1.25,2,0.15,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",70
+Turbocharge Cannon,blue_turbo_batt,2,2500,1750,,25,,25,65,0,,ENERGY,0,,0,2,2,0.1,1,5,1,0.5,,1500,,,,"USE_VS_FRIGATES, ANTI_FTR, STRIKE",70
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium Turbolaser (B),blue_medium_turbo,1,500,1500,,18,,15,85,0,,ENERGY,0,,0,1,2,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",72.4
+Medium Turbolaser,imp_medium_turbo,1,500,1000,,15,,15,75,0,,ENERGY,0,,0,0.75,2,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",72.4
+Quad Medium Turbolaser,imp_med_turbo_4x,1,500,1000,,15,,15,75,0,,ENERGY,0,,0,0.75,4,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",71.4
+Triple Medium Turbolaser,imp_med_turbo_3x,1,500,1000,,15,,15,75,0,,ENERGY,0,,0,0.75,3,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",71.4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Laser Cannon,imp_laser_cannon,1,500,750,,10,,15,100,0,,ENERGY,0,,0,0.5,2,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",72.9
+Laser Cannon (Mod),reb_laser_cannon,1,500,1000,,10,,15,125,0,,ENERGY,0,,0,0.25,2,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",72.9
+Quad Laser Cannon,imp_quad_laser_cannon,1,500,750,,10,,15,100,0,,ENERGY,0,,0,0.5,4,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",71.466
+Quad Laser Cannon (mod),reb_quad_laser_cannon,1,500,1000,,10,,15,125,0,,ENERGY,0,,0,0.25,4,0.1,1,5,1,0.5,,1500,,,,"ANTI_FTR, PD, USE_VS_FRIGATES",71.466
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plasma Torpedo,lancer_single,2,1800,5000,,10000,,2500,o,0,1,HIGH_EXPLOSIVE,0,,0,15,1,1,0,0,0,0,,750,40,18,2000,STRIKE,
+ACT Launcher,omega_cap,3,95000,5000,,20000,550,2500,o,0,4,HIGH_EXPLOSIVE,0,,0,15,1,1,0,0,0,0,,500,150,50,2500,"STRIKE, DO_NOT_AIM, HEATSEEKER",
+Anti-Capital Torpedo,omega,3,95000,5000,,15000,550,2500,o,0,1,HIGH_EXPLOSIVE,0,,0,15,1,1,0,0,0,0,,500,150,50,2500,"STRIKE, DO_NOT_AIM, HEATSEEKER",
+Dual-Stage Missle,achillespod,2,2300,5000,,2000,,2500,o,0,12,KINETIC,0,,0,15,2,0.5,0,0,0,,,240,50,15,150,"DO_NOT_AIM, HEATSEEKER",
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Super LSV Cannon,XXL_MAC,3,425000,10000,,10000,5000,99999,10,0,20,KINETIC,0,,2.5,20,1,,0,0,0,0,,7000,,,,"STRIKE, USE_VS_FRIGATES",
+XXL Spawn,XX_MAC,3,225000,10000,,10000,5000,99999,10,0,10,KINETIC,0,,,,1,,0,0,0,0,,7000,,,,SYSTEM,
+LSV Cannon,XL_MAC,3,425000,3000,,500,2500,99999,35,0,250,KINETIC,0,,2.5,10,1,,0,0,0,0,,7000,,,,"STRIKE, USE_VS_FRIGATES",
+XL Spawn,L_MAC,3,225000,3000,,500,2500,99999,35,0,250,KINETIC,0,,,,1,,0,0,0,0,,7000,,,,SYSTEM,
+Dual SLSV Cannon,MAC,3,225000,2250,,250,1250,99999,50,0,500,KINETIC,0,,0,5,2,0.1,0,0,0,0,,5000,,,,"STRIKE, USE_VS_FRIGATES, ANTI_FTR",
+Dual SLSV Spawn,DMAC,3,225000,2250,,250,1250,99999,50,0,500,KINETIC,0,,,,1,,0,0,0,0,,5000,,,,SYSTEM,
+PD SLSV Cannon,MAC_S,3,15000,2000,,125,750,99999,75,0,500,KINETIC,0,,0,2.5,2,0.1,0,0,0,0,,5000,,,,"PD, ANTI_FTR",
+PD SLSV Spawn,PMAC_S,3,15000,2000,,125,750,99999,75,0,500,KINETIC,0,,,,1,,0,0,0,0,,5000,,,,SYSTEM,

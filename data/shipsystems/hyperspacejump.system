@@ -1,0 +1,30 @@
+{
+	"id":"hyperspacejump",
+	"type":"TELEPORTER",
+	"aiType":"PHASE_TELEPORTER",
+	"statsScript":"data.shipsystems.scripts.HyperspaceJumpStats",
+
+	"jitterColor":[80,80,80,250],
+	"jitterCopies":12,
+	"jitterRange":20,
+	"jitterRangeRadiusFraction":0.4,
+
+	"range":2000,
+	"randomRange":0,
+	
+    "renderCopyDuringTeleport":false,
+    "vulnerableChargeup":true,	
+
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_hyperspacejump",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+		"averageSpeedIncrease":50,
+		"burstMovementPotential":800,		
+		"threatRange":1200,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,		
+	}
+}

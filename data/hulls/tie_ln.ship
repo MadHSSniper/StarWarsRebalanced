@@ -1,0 +1,84 @@
+{
+  "bounds": [
+    -14,
+    13,
+    -5.5,
+    -0.5,
+    -14.5,
+    -13.5,
+    16.5,
+    -14,
+    7,
+    -0.5,
+    16,
+    13
+  ],
+  "center": [
+    16,
+    15
+  ],
+  "collisionRadius": 20,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 9,
+      "location": [
+        -4.5,
+        2
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 9,
+      "location": [
+        -4.5,
+        -2
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    }
+  ],
+  "height": 32,
+  "hullId": "tie_ln",
+  "hullName": "TIE Fighter",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 0,
+  "spriteName": "graphics/empire/ships/sw_tief.png",
+  "style": "GALACTIC_EMPIRE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "Wep1",
+      "locations": [
+        5,
+        3
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "Wep2",
+      "locations": [
+        5,
+        -3
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 32
+}

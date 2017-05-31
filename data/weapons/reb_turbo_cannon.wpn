@@ -1,0 +1,28 @@
+{
+	"id":"reb_turbo_cannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":900,
+	"turretSprite":"graphics/empire/weapons/sw_laser_turbo_turret_base.png",
+    "turretGunSprite":"graphics/empire/weapons/sw_laser_turbo_turret_recoil.png",
+	"hardpointSprite":"graphics/empire/weapons/sw_laser_turbo_med_hardpoint_base.png",
+    "hardpointGunSprite":"graphics/empire/weapons/sw_laser_turbo_med_hardpoint_recoil.png",	
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[18, -1, 18, 1],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[20, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":7.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":4.0,
+					   "particleSizeRange":7.0,
+					   "particleDuration":0.12,
+					   "particleCount":10,
+					   "particleColor":[200,100,100,255]},
+	"projectileSpecId":"sw_laser_turbo_shot_red_large",  # projectile that will be fired
+	"fireSoundTwo":"rebel_turbo_heavy",	
+}

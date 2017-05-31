@@ -1,0 +1,18 @@
+{
+  "displayName": "Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "tie_ln",
+  "hullMods": [],
+  "variantId": "line_fighter",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Wep1": "tie_laser",
+        "Wep2": "tie_laser"
+      }
+    }
+  ]
+}

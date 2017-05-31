@@ -1,0 +1,43 @@
+{
+  "displayName": "Medium",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "strike_cruiser",
+  "hullMods": [
+  ],
+  "variantId": "strike_med",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "imp_turbo_batt",
+        "WS0013": "imp_turbo_batt",
+        "WS0014": "imp_turbo_batt",
+        "WS0019": "imp_turbo_batt",
+        "WS0020": "imp_turbo_batt",
+        "WS0035": "imp_turbo_batt",
+        "WS0036": "imp_turbo_batt",
+        "WS0037": "imp_turbo_batt",
+        "WS0038": "imp_turbo_batt",
+        "WS0039": "imp_turbo_batt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "imp_ion_cannon",
+        "WS0015": "imp_ion_cannon",
+        "WS0016": "imp_ion_cannon",
+        "WS0017": "imp_ion_cannon",
+        "WS0018": "imp_ion_cannon",
+        "WS0027": "imp_ion_cannon",
+        "WS0028": "imp_ion_cannon",
+        "WS0033": "imp_ion_cannon",
+        "WS0034": "imp_ion_cannon",
+        "WS0040": "imp_ion_cannon"
+      }
+    }
+  ]
+}

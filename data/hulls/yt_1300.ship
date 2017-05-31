@@ -1,0 +1,441 @@
+{
+  "bounds": [
+    -49,
+    -11,
+    -41.5,
+    -25,
+    -21.5,
+    -37.5,
+    -3,
+    -38.5,
+    51,
+    -13,
+    51,
+    13,
+    -3,
+    38.5,
+    -21.5,
+    37.5,
+    -41.5,
+    25,
+    -49,
+    11
+  ],
+  "builtInWeapons": {
+    "WS0001": "ag_2g",
+    "WS0002": "ag_2g",
+    "WS0003": "missle_tube_4",
+    "WS0004": "missle_tube_4"
+  },
+  "center": [
+    38.5,
+    49.5
+  ],
+  "collisionRadius": 55.58102,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 38,
+      "length": 16,
+      "location": [
+        -48.5,
+        -0
+      ],
+      "style": "HIGH_TECH",
+      "width": 38
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -48.5,
+        2.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -48.5,
+        -2.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -49.5,
+        8
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -49.5,
+        -8
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -49.5,
+        6
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -49.5,
+        -6
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 172.874985,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -48,
+        13
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -172.874985,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -48.5,
+        -10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 172.874985,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -48.5,
+        10.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -172.874985,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -48,
+        -13
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 165.96376,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -46.5,
+        17
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -165.96376,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -46.5,
+        -17
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 155.224854,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -43.5,
+        20.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -155.224854,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -43.5,
+        -20.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 153.434952,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -42,
+        24
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -153.434952,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -42,
+        -24
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 176.42366,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -48.5,
+        8
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": -176.42366,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -48.5,
+        -8
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": -180,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -44,
+        21
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": 180,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -44,
+        -21
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": 159.443954,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -43.5,
+        23
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -159.443954,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -43.5,
+        -23
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 170.537674,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -46.5,
+        14
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": -170.537674,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -46.5,
+        -14
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": 153.434952,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -43,
+        20.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": -153.434952,
+      "contrailSize": 17,
+      "length": 17,
+      "location": [
+        -43,
+        -20.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 17
+    },
+    {
+      "angle": 159.443954,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -47,
+        13.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -159.443954,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -47,
+        -13.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": 159.443954,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -44.5,
+        18
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -159.443954,
+      "contrailSize": 4,
+      "length": 17,
+      "location": [
+        -44.5,
+        -18
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    }
+  ],
+  "height": 102,
+  "hullId": "yt_1300",
+  "hullName": "Millenium Falcon",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 54.502293,
+  "spriteName": "graphics/rebel/ships/falcon.png",
+  "style": "REBEL_ALLIANCE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -9,
+        -1
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0002",
+      "locations": [
+        -9,
+        -1
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        32,
+        2
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        32,
+        -2
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 79
+}

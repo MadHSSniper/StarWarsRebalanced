@@ -1,0 +1,47 @@
+{
+  "displayName": "Mk I",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "victory_mki",
+  "hullMods": [
+  ],
+  "variantId": "mki_vic",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0031": "concussion_missle_assault",
+        "WS0032": "concussion_missle_assault",
+        "WS0033": "concussion_missle_assault",
+        "WS0034": "concussion_missle_assault"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "imp_heavy_turbo",
+        "WS0002": "imp_heavy_turbo",
+        "WS0003": "imp_heavy_turbo",
+        "WS0004": "imp_heavy_turbo",
+        "WS0005": "imp_heavy_turbo",
+        "WS0006": "imp_heavy_turbo",
+        "WS0007": "imp_heavy_turbo",
+        "WS0008": "imp_heavy_turbo",
+        "WS0009": "imp_heavy_turbo",
+        "WS0010": "imp_heavy_turbo",
+        "WS0011": "imp_heavy_turbo",
+        "WS0012": "imp_heavy_turbo",
+        "WS0013": "imp_heavy_turbo",
+        "WS0014": "imp_heavy_turbo",
+        "WS0015": "imp_heavy_turbo",
+        "WS0016": "imp_heavy_turbo",
+        "WS0017": "imp_heavy_turbo",
+        "WS0018": "imp_heavy_turbo",
+        "WS0019": "imp_heavy_turbo",
+        "WS0020": "imp_heavy_turbo"
+      }
+    }
+  ]
+}

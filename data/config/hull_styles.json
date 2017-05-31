@@ -1,0 +1,68 @@
+{
+    "REBEL_ALLIANCE":{
+        "hyperspaceJitterColor":[255,145,75,200],
+		"baseCampaignExplosionColor":[255,145,75,255],
+		"baseCombatExplosionColor":[255,145,75,255],
+		"fighterRepairFlickerColor":[255,145,75,255],
+		"fighterChipIconColor":[255,255,255,255],
+		"weaponDisabledExplosionColor":[255,145,75,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"swrebalanced_engine_loop", 				# id of entry in sounds.json
+		"engineAccelerateSet":"swrebalanced_engine_accelerate",		        # id of entry in sounds.json
+		"empLoopSet":"swrebalanced_emp_loop",					# id of entry in sounds.json
+		"fluxLoopSet":"swrebalanced_flux_loop",					# id of entry in sounds.json
+		"ventFluxSet":"swrebalanced_vent_flux",					# id of entry in sounds.json
+		"shieldBurnoutSet":"swrebalanced_shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"swrebalanced_shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"swrebalanced_shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"swrebalanced_explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":false,
+		"coversColorShiftAmount":0.5,  # 0 to 1
+		"coversMatchShipBrightness":false,
+		"slotCoverSmallTurret":"graphics/weapons/covers/cover_turret_hightech_small.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_small.png",
+		"slotCoverMediumTurret":"graphics/weapons/covers/cover_turret_hightech_medium.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_medium.png",
+		"slotCoverLargeTurret":"graphics/weapons/covers/cover_turret_hightech_large.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_large.png",	
+    },
+	"GALACTIC_EMPIRE":{
+        "hyperspaceJitterColor":[100,165,255,200],
+		"baseCampaignExplosionColor":[100,165,255,255],
+		"baseCombatExplosionColor":[100,165,255,255],
+		"fighterRepairFlickerColor":[100,165,255,255],
+		"fighterChipIconColor":[100,165,255,255],
+		"weaponDisabledExplosionColor":[100,165,255,255],
+		"shieldRingColor":[255,255,255,255],
+		"shieldInnerColor":[125,125,255,75],
+		"fluxVentCoreColor":[255,255,255,255],
+		"fluxVentFringeColor":[125,0,155,255],
+		"engineLoopSet":"swrebalanced_engine_loop", 				# id of entry in sounds.json
+		"engineAccelerateSet":"swrebalanced_engine_accelerate",		        # id of entry in sounds.json
+		"empLoopSet":"swrebalanced_emp_loop",					# id of entry in sounds.json
+		"fluxLoopSet":"swrebalanced_flux_loop",					# id of entry in sounds.json
+		"ventFluxSet":"swrebalanced_vent_flux",					# id of entry in sounds.json
+		"shieldBurnoutSet":"swrebalanced_shield_burnout",			# id of entry in sounds.json
+		"shieldLowerSet":"swrebalanced_shield_lower",				# id of entry in sounds.json
+		"shieldRaiseSet":"swrebalanced_shield_raise",				# id of entry in sounds.json
+		"explosionShipSet":"swrebalanced_explosion_ship",			# id of entry in sounds.json
+		"damageDecalSheet":"graphics/damage/damage_decal_sheet_base.png",
+		"damageDecalGlowSheet":"graphics/damage/damage_decal_sheet_glow.png",
+		
+		"colorShiftCovers":false,
+		"coversColorShiftAmount":0.5,  # 0 to 1
+		"coversMatchShipBrightness":false,
+		"slotCoverSmallTurret":"graphics/weapons/covers/cover_turret_hightech_small.png",
+		"slotCoverSmallHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_small.png",
+		"slotCoverMediumTurret":"graphics/weapons/covers/cover_turret_hightech_medium.png",
+		"slotCoverMediumHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_medium.png",
+		"slotCoverLargeTurret":"graphics/weapons/covers/cover_turret_hightech_large.png",
+		"slotCoverLargeHardpoint":"graphics/weapons/covers/cover_hardpoint_hightech_large.png",	
+    },
+}

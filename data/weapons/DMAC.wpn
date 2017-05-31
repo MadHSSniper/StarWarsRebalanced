@@ -1,0 +1,30 @@
+{
+	"id":"DMAC",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":650,
+	"turretSprite":"graphics/weapons/MAC_base.png",
+	"turretGlowSprite":"graphics/weapons/MAC_glow.png",
+	"hardpointSprite":"graphics/weapons/MAC_base.png",
+	"hardpointGlowSprite":"graphics/weapons/MAC_glow.png",	
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[100,100,255,255],
+	"turretOffsets":[34, -10, 34, 10],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[54, -10, 54, 10],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":100.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.2,
+					   "particleSizeMin":20.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.75,
+					   "particleCount":75,
+					   "particleColor":[100,100,255,255]},	
+	"projectileSpecId":"DMAC2_shot",  # projectile that will be fired
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"fireSoundTwo":"energy_pulse",	
+}

@@ -1,0 +1,22 @@
+{
+	"id":"sw_missile_proton_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/sw_missile_proton.png",
+	"size":[3,7],	
+	"center":[1,3],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":120,
+				  "turnRate":100,
+				  "acc":1500,
+				  "dec":1000},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    "style":"MISSILE_MIDLINE",
+				    "width":7.0,
+				    "length":14.0,
+				    "angle":180.0}]
+}

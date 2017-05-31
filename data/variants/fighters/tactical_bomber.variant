@@ -1,0 +1,35 @@
+{
+  "displayName": "Series",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "tie_bomber",
+  "hullMods": [
+  ],
+  "variantId": "tactical_bomber",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "tie_laser",
+        "WS0006": "tie_laser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "tie_missle",
+        "WS0004": "tie_missle"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "tie_torp",
+        "WS0002": "tie_torp"
+      }
+    }
+  ]
+}

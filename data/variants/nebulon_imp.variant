@@ -1,0 +1,47 @@
+{
+  "displayName": "Escort",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "nebulon_b_imp",
+  "hullMods": [
+  ],
+  "variantId": "nebulon_imp",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "f1": "imp_turbo_batt",
+        "f2": "imp_turbo_batt",
+        "f3": "imp_turbo_batt",
+        "f4": "imp_turbo_batt",
+        "f5": "imp_turbo_batt",
+        "f6": "imp_turbo_batt",
+    "WS0003": "imp_turbo_batt",
+    "WS0004": "imp_turbo_batt",
+    "WS0005": "imp_turbo_batt",
+    "WS0009": "imp_turbo_batt",
+    "WS0010": "imp_turbo_batt",
+        "r1": "imp_turbo_batt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "imp_laser_cannon",
+        "WS0014": "imp_laser_cannon",
+        "WS0015": "imp_laser_cannon",
+        "WS0016": "imp_laser_cannon",
+        "WS0017": "imp_laser_cannon",
+        "WS0018": "imp_laser_cannon",
+        "WS0019": "imp_laser_cannon",
+        "WS0020": "imp_laser_cannon",
+        "WS0021": "imp_laser_cannon",
+        "WS0022": "imp_laser_cannon",
+        "WS0023": "imp_laser_cannon",
+        "WS0024": "imp_laser_cannon"
+      }
+    }
+  ]
+}

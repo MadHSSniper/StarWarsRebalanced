@@ -1,0 +1,28 @@
+{
+  "displayName": "T-65",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "x_wing_t65",
+  "hullMods": [],
+  "variantId": "t_65",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ftr_laser_cannon",
+        "WS0002": "ftr_laser_cannon",
+        "WS0003": "ftr_laser_cannon",
+        "WS0004": "ftr_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "torp_tube_3",
+        "WS0006": "torp_tube_3"
+      }
+    }
+  ]
+}

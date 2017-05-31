@@ -1,0 +1,22 @@
+{
+	"id":"d_missile_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/sw_missile_concussion.png",
+	"size":[3,7],	
+	"center":[1,3],
+	"collisionRadius":7,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":80,
+				  "acc":1250,
+				  "dec":750},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4, 0],
+				    "style":"MISSILE_HIGH_TECH",
+				    "width":9.0,
+				    "length":25.0,
+				    "angle":180.0}]
+}

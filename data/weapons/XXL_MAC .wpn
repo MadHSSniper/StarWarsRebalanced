@@ -1,0 +1,33 @@
+{
+	"id":"XXL_MAC",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":650,
+	"turretSprite":"graphics/weapons/xl_mac/MAC_base_00.png",
+	#"turretGlowSprite":"graphics/weapons/xl_mac/MAC_glow.png",
+	"hardpointSprite":"graphics/weapons/xl_mac/MAC_base_00.png",
+	#"hardpointGlowSprite":"graphics/weapons/MAC_glow.png",	
+	#"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	#"renderHints":[RENDER_BARREL_BELOW],
+	#"glowColor":[100,100,255,255],
+	"everyFrameEffect":"data.scripts.imp.xl_mac_Effect",
+	"numFrames":91,	
+	"frameRate":16,
+	"turretOffsets":[21, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[41, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":150.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.5,
+					   "particleSizeMin":40.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.75,
+					   "particleCount":95,
+					   "particleColor":[100,100,255,255]},	
+	"projectileSpecId":"XL_MAC_shot",  # projectile that will be fired
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"fireSoundTwo":"energy_pulse",	
+}

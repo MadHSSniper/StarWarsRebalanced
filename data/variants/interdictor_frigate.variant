@@ -1,0 +1,44 @@
+{
+  "displayName": "Immobilizer 418",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "immobilizer_418",
+  "hullMods": [
+  ],
+  "variantId": "interdictor_frigate",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "tractor_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "imp_quad_laser_cannon",
+        "WS0002": "imp_quad_laser_cannon",
+        "WS0003": "imp_quad_laser_cannon",
+        "WS0004": "imp_quad_laser_cannon",
+        "WS0005": "imp_quad_laser_cannon",
+        "WS0006": "imp_quad_laser_cannon",
+        "WS0007": "imp_quad_laser_cannon",
+        "WS0008": "imp_quad_laser_cannon",
+        "WS0009": "imp_quad_laser_cannon",
+        "WS0010": "imp_quad_laser_cannon",
+        "WS0011": "imp_quad_laser_cannon",
+        "WS0012": "imp_quad_laser_cannon",
+        "WS0013": "imp_quad_laser_cannon",
+        "WS0014": "imp_quad_laser_cannon",
+        "WS0015": "imp_quad_laser_cannon",
+        "WS0016": "imp_quad_laser_cannon",
+        "WS0017": "imp_quad_laser_cannon",
+        "WS0018": "imp_quad_laser_cannon",
+        "WS0019": "imp_quad_laser_cannon",
+        "WS0020": "imp_quad_laser_cannon"
+      }
+    }
+  ]
+}

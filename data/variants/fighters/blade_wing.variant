@@ -1,0 +1,43 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "b_wing_heavy",
+  "hullMods": [],
+  "variantId": "blade_wing",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "ftr_heavy_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ftr_ion_cannon",
+        "WS0002": "ftr_ion_cannon",
+        "WS0006": "ftr_ion_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ftr_laser_cannon",
+        "WS0004": "ftr_laser_cannon",
+        "WS0009": "ftr_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "torp_tube_8",
+        "WS0008": "torp_tube_8"
+      }
+    }
+  ]
+}

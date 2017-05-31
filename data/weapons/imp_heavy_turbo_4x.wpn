@@ -1,0 +1,30 @@
+{
+	"id":"imp_heavy_turbo_4x",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":1100,
+	"turretSprite":"graphics/empire/weapons/sw_laser_turbo_turret_base.png",
+    "turretGunSprite":"graphics/empire/weapons/sw_laser_turbo_turret_recoil.png",
+    #"turretGlowSprite":"graphics/empire/weapons/sw_laser_turbo_turret_glow.png",
+	"hardpointSprite":"graphics/empire/weapons/sw_laser_turbo_hardpoint_base.png",
+    "hardpointGunSprite":"graphics/empire/weapons/sw_laser_turbo_hardpoint_recoil.png",	
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[12, -2, 12, 2],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[28, -4, 30, 0],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":7.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.12,
+					   "particleCount":15,
+					   "particleColor":[100,255,100,255]},
+    "autocharge":true,
+	"projectileSpecId":"sw_laser_turbo_shot_green_large",  # projectile that will be fired
+	"fireSoundTwo":"turbolaser_1",	
+}

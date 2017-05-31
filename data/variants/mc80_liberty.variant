@@ -1,0 +1,97 @@
+{
+  "displayName": "MC80",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "liberty_mc80",
+  "hullMods": [
+  ],
+  "variantId": "mc80_liberty",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "fwd_batt_l1": "reb_turbo_batt",
+        "fwd_batt_l2": "reb_turbo_batt_m",
+        "fwd_batt_l3": "reb_turbo_batt_m",
+        "fwd_batt_l4": "reb_turbo_batt_m",
+        "fwd_batt_l5": "reb_turbo_batt_m",
+        "fwd_batt_l6": "reb_turbo_batt_m",
+        "fwd_batt_l7": "reb_turbo_batt_m",
+        "fwd_batt_r1": "reb_turbo_batt",
+        "fwd_batt_r2": "reb_turbo_batt_m",
+        "fwd_batt_r3": "reb_turbo_batt_m",
+        "fwd_batt_r4": "reb_turbo_batt_m",
+        "fwd_batt_r5": "reb_turbo_batt_m",
+        "fwd_batt_r6": "reb_turbo_batt_m",
+        "fwd_batt_r7": "reb_turbo_batt_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "ion_clstr_l1": "reb_ion_cannon_m",
+        "ion_clstr_l2": "reb_ion_cannon_m",
+        "ion_clstr_l3": "reb_ion_cannon_m",
+        "ion_clstr_l4": "reb_ion_cannon_m",
+        "ion_clstr_l5": "reb_ion_cannon_m",
+        "ion_clstr_l6": "reb_ion_cannon_m",
+        "ion_clstr_l7": "reb_ion_cannon_m",
+        "ion_clstr_l8": "reb_ion_cannon_m",
+        "fwd_ion_l1": "reb_ion_cannon",
+        "fwd_ion_l2": "reb_ion_cannon",
+        "fwd_ion_r1": "reb_ion_cannon",
+        "fwd_ion_r2": "reb_ion_cannon",
+        "ion_clstr_r1": "reb_ion_cannon_m",
+        "ion_clstr_r2": "reb_ion_cannon_m",
+        "ion_clstr_r3": "reb_ion_cannon_m",
+        "ion_clstr_r4": "reb_ion_cannon_m",
+        "ion_clstr_r5": "reb_ion_cannon_m",
+        "ion_clstr_r6": "reb_ion_cannon_m",
+        "ion_clstr_r7": "reb_ion_cannon_m",
+        "ion_clstr_r8": "reb_ion_cannon_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "batt_clstr_l1": "reb_turbo_batt",
+        "batt_clstr_l2": "reb_turbo_batt_m",
+        "batt_clstr_l3": "reb_turbo_batt_m",
+        "batt_clstr_l4": "reb_turbo_batt_m",
+        "batt_clstr_l5": "reb_turbo_batt_m",
+        "wing_batt_l1": "reb_turbo_batt",
+        "wing_batt_l2": "reb_turbo_batt_m",
+        "wing_batt_l3": "reb_turbo_batt_m",
+        "wing_batt_l4": "reb_turbo_batt_m",
+        "wing_batt_l5": "reb_turbo_batt_m",
+        "batt_clstr_r1": "reb_turbo_batt",
+        "batt_clstr_r2": "reb_turbo_batt_m",
+        "batt_clstr_r3": "reb_turbo_batt_m",
+        "batt_clstr_r4": "reb_turbo_batt_m",
+        "batt_clstr_r5": "reb_turbo_batt_m",
+        "wing_batt_r1": "reb_turbo_batt",
+        "wing_batt_r2": "reb_turbo_batt_m",
+        "wing_batt_r3": "reb_turbo_batt_m",
+        "wing_batt_r4": "reb_turbo_batt_m",
+        "wing_batt_r5": "reb_turbo_batt_m",
+        "dorsal_batt_l1": "reb_turbo_batt",
+        "dorsal_batt_l2": "reb_turbo_batt_m",
+        "dorsal_batt_l3": "reb_turbo_batt_m",
+        "dorsal_batt_l4": "reb_turbo_batt_m",
+        "dorsal_batt_r1": "reb_turbo_batt",
+        "dorsal_batt_r2": "reb_turbo_batt_m",
+        "dorsal_batt_r3": "reb_turbo_batt_m",
+        "dorsal_batt_r4": "reb_turbo_batt_m",
+        "stern_batt_l1": "reb_turbo_batt",
+        "stern_batt_l2": "reb_turbo_batt_m",
+        "stern_batt_l3": "reb_turbo_batt_m",
+        "stern_batt_r1": "reb_turbo_batt_m",
+        "stern_batt_r2": "reb_turbo_batt_m",
+        "stern_batt_r3": "reb_turbo_batt_m"
+      }
+    }
+  ]
+}

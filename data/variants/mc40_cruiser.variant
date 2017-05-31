@@ -1,0 +1,63 @@
+{
+  "displayName": "Light",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "mc40_a",
+  "hullMods": [
+  ],
+  "variantId": "mc40_cruiser",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0033": "concussion_missle_assault",
+        "WS0034": "concussion_missle_assault"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "reb_turbo_batt",
+        "WS0002": "reb_turbo_batt",
+        "WS0003": "reb_turbo_batt",
+        "WS0004": "reb_turbo_batt",
+        "WS0005": "reb_turbo_batt",
+        "WS0006": "reb_turbo_batt",
+        "WS0007": "reb_turbo_batt",
+        "WS0008": "reb_turbo_batt",
+        "WS0009": "reb_turbo_batt",
+        "WS0010": "reb_turbo_batt",
+        "WS0011": "reb_turbo_batt",
+        "WS0012": "reb_turbo_batt",
+        "WS0013": "reb_turbo_batt",
+        "WS0014": "reb_turbo_batt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "reb_ion_cannon",
+        "WS0016": "reb_ion_cannon",
+        "WS0017": "reb_ion_cannon",
+        "WS0018": "reb_ion_cannon",
+        "WS0019": "reb_ion_cannon",
+        "WS0020": "reb_ion_cannon",
+        "WS0021": "reb_ion_cannon",
+        "WS0022": "reb_ion_cannon",
+        "WS0023": "reb_ion_cannon",
+        "WS0024": "reb_ion_cannon",
+        "WS0025": "reb_ion_cannon",
+        "WS0026": "reb_ion_cannon",
+        "WS0027": "reb_ion_cannon",
+        "WS0028": "reb_ion_cannon",
+        "WS0029": "reb_ion_cannon",
+        "WS0030": "reb_ion_cannon",
+        "WS0031": "reb_ion_cannon",
+        "WS0032": "reb_ion_cannon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+	"id":"reb_ion_cannon_m",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"displayArcRadius":800,
+	"turretSprite":"graphics/empire/weapons/sw_laser_ion_turret_base.png",
+	#"turretGlowSprite":"graphics/weapons/ion_cannon_turret_glow.png",
+    "turretGunSprite":"graphics/empire/weapons/sw_laser_ion_turret_recoil.png",
+	"hardpointSprite":"graphics/empire/weapons/sw_laser_ion_hardpoint_base.png",
+	#"hardpointGlowSprite":"graphics/weapons/ion_cannon_hardpoint_glow.png",
+    "hardpointGunSprite":"graphics/empire/weapons/sw_laser_ion_hardpoint_recoil.png",
+    "visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[100,200,255,255],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":13.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":17,
+					   "particleColor":[100,200,255,255]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"sw_laser_ion_shot",  # projectile that will be fired
+	#"fireSoundTwo":"ion_cannon",
+}

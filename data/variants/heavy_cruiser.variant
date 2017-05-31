@@ -1,0 +1,91 @@
+{
+  "displayName": "Heavy",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "dreadnaught_heavy",
+  "hullMods": [
+  ],
+  "variantId": "heavy_cruiser",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "f1": "imp_turbo_batt",
+        "f2": "imp_turbo_batt",
+        "f3": "imp_turbo_batt",
+        "f4": "imp_turbo_batt",
+        "f5": "imp_turbo_batt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "c1": "imp_turbo_cannon",
+        "c2": "imp_turbo_cannon",
+        "c3": "imp_turbo_cannon",
+        "c4": "imp_turbo_cannon",
+        "c5": "imp_turbo_cannon",
+        "c6": "imp_turbo_cannon",
+        "t10": "imp_turbo_batt",
+        "t6": "imp_turbo_batt",
+        "t7": "imp_turbo_batt",
+        "t8": "imp_turbo_batt",
+        "t9": "imp_turbo_batt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "c10": "imp_turbo_cannon",
+        "c11": "imp_turbo_cannon",
+        "c12": "imp_turbo_cannon",
+        "c7": "imp_turbo_cannon",
+        "c8": "imp_turbo_cannon",
+        "c9": "imp_turbo_cannon",
+        "t11": "imp_turbo_batt",
+        "t12": "imp_turbo_batt",
+        "t13": "imp_turbo_batt",
+        "t14": "imp_turbo_batt",
+        "t15": "imp_turbo_batt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "q1": "imp_pd_gun",
+        "q10": "imp_pd_gun",
+        "q11": "imp_pd_gun",
+        "q12": "imp_pd_gun",
+        "q13": "imp_pd_gun",
+        "q14": "imp_pd_gun",
+        "q15": "imp_pd_gun",
+        "q16": "imp_pd_gun",
+        "q17": "imp_pd_gun",
+        "q18": "imp_pd_gun",
+        "q19": "imp_pd_gun",
+        "q2": "imp_pd_gun",
+        "q20": "imp_pd_gun",
+        "q3": "imp_pd_gun",
+        "q4": "imp_pd_gun",
+        "q5": "imp_pd_gun",
+        "q6": "imp_pd_gun",
+        "q7": "imp_pd_gun",
+        "q8": "imp_pd_gun",
+        "q9": "imp_pd_gun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "c13": "imp_turbo_cannon",
+        "c14": "imp_turbo_cannon",
+        "c15": "imp_turbo_cannon"
+      }
+    }
+  ]
+}

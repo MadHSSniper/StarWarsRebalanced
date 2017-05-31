@@ -1,0 +1,33 @@
+{
+  "displayName": "BTL",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "y_wing_btl",
+  "hullMods": [],
+  "variantId": "btl_bomber",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "ftr_laser_cannon",
+        "WS0004": "ftr_laser_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "torp_tube_4",
+        "WS0006": "torp_tube_4"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "imp_ion_cannon"
+      }
+    }
+  ]
+}

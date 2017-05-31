@@ -1,0 +1,275 @@
+{
+	######WEAPONS######
+	
+    "sw_sound_laser_tie":{
+        "sounds":[
+            {"file":"sounds/SWRebalanced/fx/lasers/sw_laser_fire_tie.ogg","pitch":1.0,"volume":0.6}
+		],
+	},
+	"sw_sound_laser_turbo":{
+        "sounds":[
+            {"file":"sounds/SWRebalanced/fx/lasers/sw_laser_fire_turbo.ogg","pitch":1.0,"volume":0.9}
+		],
+	},
+    "sw_sound_laser_turbo_rebel":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/sw_laser_fire_turbo_rebel.ogg","pitch":1.0,"volume":0.9}
+		],
+	},
+    "sw_sound_laser_xwing":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/sw_laser_fire_xwing.ogg","pitch":1.0,"volume":1.0}
+		],
+	},
+    "sw_sound_laser_quad":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/sw_laser_fire_quad.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+    "sw_sound_missile_launch":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/missiles/sw_missile_generic_fire.ogg","pitch":1.0,"volume":0.8}
+		],
+	},
+    "sw_sound_torpedo_launch":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/missiles/sw_torpedo_generic_fire.ogg","pitch":1.0,"volume":0.8}
+		],
+	},
+	"torp_1":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/missiles/torp_1.ogg","pitch":1.0,"volume":0.8}
+		],
+	},
+	"torp_2":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/missiles/torp_2.ogg","pitch":1.0,"volume":0.8}
+		],
+	},
+	"missile_1":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/missiles/missile_1.ogg","pitch":1.0,"volume":0.8}
+		],
+	},
+	"heavy_turbo_1":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/heavy_turbo_1.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"imp_quad":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/imp_quad.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"ion_cannon":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/ion_cannon.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"reb_fighter":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/reb_fighter.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"reb_quad":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/reb_quad.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"rebel_turbo":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/rebel_turbo.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"rebel_turbo_heavy":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/rebel_turbo_heavy.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"sd_main_gun":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/sd_main_gun.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"ag_2g":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/ag_2g.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"tie_laser":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/tie_laser.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"turbolaser_1":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/turbolaser_1.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"cannon":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/cannon.ogg","pitch":1.0,"volume":0.3}
+		],
+	},
+	"ion_pulse":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/lasers/shdlhit3.wav","pitch":1.0,"volume":0.3}
+		],
+	},
+	
+	######SYSTEMS######
+	
+	"system_hyperspacejump_voice":{
+		"sounds":[
+			#{"file":"sounds/SWRebalanced/fx/effect/jump_2.ogg","pitch":1.0,"volume":0.9},
+			{"file":"sounds/SWRebalanced/fx/effect/jump_1.ogg","pitch":1.0,"volume":0.9}
+		],
+	},
+	"system_hyperspacejump":{
+        "sounds":[
+			{"file":"sounds/SWRebalanced/fx/engines/engine_start_2.ogg","pitch":1.0,"volume":0.5}
+		],
+	},
+	
+	######ENGINES######
+	
+	"swrebalanced_engine_loop":{
+		"sounds":[
+			{"file":"sounds/SWRebalanced/fx/engines/tie_fighter.ogg","pitch":1,"volume":0.61},    		# index: 0
+			{"file":"sounds/SWRebalanced/fx/engines/starcruiser_small.ogg","pitch":1,"volume":0.69},    # index: 1
+			{"file":"sounds/SWRebalanced/fx/engines/starcruiser_small.ogg","pitch":1,"volume":0.64},  	# index: 2
+			{"file":"sounds/SWRebalanced/fx/engines/starcruiser_large.ogg","pitch":1,"volume":0.68},    # index: 3
+			{"file":"sounds/SWRebalanced/fx/engines/starcruiser_large.ogg","pitch":1,"volume":0.71},    # index: 4
+			{"file":"sounds/SWRebalanced/fx/engines/x_wing.ogg","pitch":1,"volume":0.61}    			# index: 5
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0,1,2,3,4], "pitch":1, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[5,1,2,3,4], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.21},
+		"FRIGATE":{"sounds":[1], "pitch":1, "volume":0.31},
+		"DESTROYER":{"sounds":[2], "pitch":1, "volume":0.48},
+		"CRUISER":{"sounds":[3], "pitch":1, "volume":0.56},
+		"CAPITAL_SHIP":{"sounds":[4], "pitch":1, "volume":0.64},
+		},
+		"swrebalanced_engine_accelerate":{
+			"sounds":[
+			{"file":"sounds/SWRebalanced/fx/engines/engine_start_1.ogg","pitch":1.0,"volume":0.9},		#index 0
+			{"file":"sounds/SWRebalanced/fx/engines/engine_start_2.ogg","pitch":1.0,"volume":0.9},		#index 1
+			{"file":"sounds/SWRebalanced/fx/engines/engine_start_3.ogg","pitch":1.0,"volume":0.9}		#index 2
+		],
+		"GALACTIC_EMPIRE":{"sounds":[2], "pitch":0.8, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[2], "pitch":0.8, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.6},
+		"DESTROYER":{"sounds":[0], "pitch":0.9, "volume":0.7},
+		"CRUISER":{"sounds":[0], "pitch":0.8, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.7, "volume":0.9},
+	},
+	
+	#####OVERLOAD######
+	
+	"swrebalanced_shield_burnout":{
+		"sounds":[
+			{"file":"sounds/sfx_shields/shields_burnout_oneshot.ogg","pitch":1,"volume":1}
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0], "pitch":1, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1}
+	},
+	"swrebalanced_emp_loop":{
+		"sounds":[
+			{"file":"sounds/sfx_shields/shields_burnout_loop.ogg","pitch":1,"volume":0.6}
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0], "pitch":1, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1}
+	},
+	
+	#####VENTING######
+	
+	"swrebalanced_flux_loop":{
+		"sounds":[
+			{"file":"sounds/sfx_flux/flux_flush_loop.ogg","pitch":1,"volume":0.8}
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0], "pitch":1.2, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[0], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.2, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1.1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":0.9, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.8, "volume":1}
+	},
+	"swrebalanced_vent_flux":{
+		"sounds":[
+			{"file":"sounds/sfx_flux/flux_vent.ogg","pitch":1,"volume":0.8}
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0], "pitch":1.2, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[0], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.2, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1.1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":0.9, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.8, "volume":1}
+	},
+	
+	######SHIELDS######
+	
+	"swrebalanced_shield_lower":{
+		"sounds":[
+			{"file":"sounds/sfx_shields/shields_down_large.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_shields/shields_down_medium.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_shields/shields_down_small.ogg","pitch":1,"volume":0.4}
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0,1,2], "pitch":1.2, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[0,1,2], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[2], "pitch":1, "volume":0.6},
+		"FRIGATE":{"sounds":[2], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1}
+	},
+	"swrebalanced_shield_raise":{
+		"sounds":[
+			{"file":"sounds/sfx_shields/shields_up_large.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_shields/shields_up_medium.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_shields/shields_up_small.ogg","pitch":1,"volume":0.4}
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0,1,2], "pitch":1.2, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[0,1,2], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[2], "pitch":1, "volume":0.5},
+		"FRIGATE":{"sounds":[2], "pitch":1, "volume":0.6},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.7},
+		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1}
+	},
+	
+	######ASPLODE######
+	
+	"swrebalanced_explosion_ship":{
+		"sounds":[
+			{"file":"sounds/sfx_impacts/explosion_01.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/sfx_impacts/explosion_02.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/sfx_impacts/explosion_03_fighter.ogg","pitch":1,"volume":1.0},
+			{"file":"sounds/sfx_impacts/explosion_04.ogg","pitch":1,"volume":1.0}
+		],
+		"GALACTIC_EMPIRE":{"sounds":[0,1,2,3], "pitch":1.2, "volume":1},
+		"REBEL_ALLIANCE":{"sounds":[0,1,2,3], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[2], "pitch":1.1, "volume":1.0},
+		"FRIGATE":{"sounds":[0,1,3], "pitch":1.0, "volume":1.0},
+		"DESTROYER":{"sounds":[0,1,3], "pitch":1.0, "volume":1.0},
+		"CRUISER":{"sounds":[0,1,3], "pitch":0.9, "volume":1.0},
+		"CAPITAL_SHIP":{"sounds":[0,1,3], "pitch":0.7, "volume":1.0}
+	},
+}
+
+
+
+
+

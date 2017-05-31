@@ -1,0 +1,253 @@
+{
+	id:"galacticempire",
+	"color":[200,200,200,255],
+	"displayName":"Galactic Empire",
+	"displayNameWithArticle":"The Galactic Empire",
+	"displayNameLong":"Galactic Empire",
+	"displayNameLongWithArticle":"The Galactic Empire",
+	"entityNamePrefix":"",
+	"personNamePrefix":"imperial",
+	"personNamePrefixAOrAn":"an",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/SWRebalanced/factions/galacticempire.png",
+	"crest":"graphics/SWRebalanced/factions/crest_galacticempire.png",
+	"shipNamePrefix":"INS",
+	"shipNameSources":{
+		"EMPIRE":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"modern":1,
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/SWRebalanced/portraits/portrait_empire_1.png",
+			"graphics/SWRebalanced/portraits/portrait_empire_2.png",
+			"graphics/SWRebalanced/portraits/portrait_empire_3.png",
+		],
+		"standard_female":[
+			"graphics/SWRebalanced/portraits/portrait_empire_female.png",
+		],
+	},
+	"fleetTypeNames":{
+		"mercScout":"Mercenary Scout",
+		"mercBountyHunter":"Bounty Hunter",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Mercenary Patrol",
+		"mercArmada":"Mercenary Company",
+	},
+	"shipRoles":{
+		"fastAttack":{
+			"carrack_light":10,
+			"fallback":{"combatSmall":1},
+		},
+	
+		"escortSmall":{
+			"strike_med":10,
+			"carrack_light":10,
+			"fallback":{"combatSmall":1},
+		},
+		"escortMedium":{
+			"strike_med":10,
+			"carrack_light":10,
+			"fighter_control":5,
+			"fallback":{"combatMedium":1},
+		},
+		
+		"combatSmall":{
+			"acclamator_mkii":5,
+			"heavy_cruiser":5,
+			"strike_med":10,
+			"carrack_light":10,
+			"fighter_control":5,
+			"fallback":{"escortSmall":1},
+		},
+		"combatMedium":{
+			"standard_vindicator":5,
+			"interdictor_frigate":1,
+			"acclamator_mkii":5,
+			"heavy_cruiser":5,
+			"strike_med":10,
+			"carrack_light":10,
+			"fighter_control":5,
+			"fallback":{"combatSmall":2},
+		},
+		"combatLarge":{
+			"mki_vic":5,
+			"mkii_vic":5,
+			"standard_vindicator":10,
+			"interdictor_frigate":5,
+			"acclamator_mkii":10,
+			"heavy_cruiser":5,
+			"strike_med":10,
+			"carrack_light":10,
+			"fighter_control":5,
+			"fallback":{"combatMedium":2},
+		},
+		"combatCapital":{
+			"impstar_mki":5,
+			"impstar_mkii":5,
+			"mki_vic":5,
+			"mkii_vic":5,
+			"standard_vindicator":10,
+			"interdictor_frigate":5,
+			"acclamator_mkii":10,
+			"heavy_cruiser":5,
+			"strike_med":10,
+			"carrack_light":5,
+			"fighter_control":1,
+			"fallback":{"combatLarge":2},
+		},
+		
+		
+		# hybrid ships with good combat and cargo capacity
+		"combatFreighterSmall":{
+			"carrack_light":10,
+			"fallback":{"freighterSmall":1},
+		},
+		"combatFreighterMedium":{
+			"carrack_light":10,
+			"fallback":{"combatFreighterSmall":2},
+		},
+		"combatFreighterLarge":{
+			"heavy_cruiser":10,
+			"fallback":{"combatFreighterMedium":2},
+		},
+		
+		"civilianRandom":{
+			"mercury_d_Standard":10,
+			"hermes_d_Standard":10,
+			"kite_Standard":10,
+			"mercury_Standard":8,
+			"mercury_FS":3,
+			"hermes_Standard":8,
+			"hermes_FS":4,
+			"starliner_Standard":10,
+			"nebula_Standard":10,
+			"mudskipper_Standard":10,
+			"colossus_Standard":1,
+			"fallback":{"freighterSmall":1},
+		},
+	
+	
+		# carriers
+		"carrierSmall":{
+			"mkii_vic":10,
+			"fallback":{"carrierMedium":0.5},
+		},
+		"carrierMedium":{
+			"mkii_vic":10,
+			"fallback":{"carrierSmall":2},
+		},
+		"carrierLarge":{
+			"impstar_mki":10,
+			"fallback":{"carrierMedium":4},
+		},
+	
+		# freighters and such
+		"freighterSmall":{
+			"carrack_light":10,
+			"fallback":{"freighterMedium":0.5},
+		},
+		"freighterMedium":{
+			"carrack_light":10,
+			"fallback":{"freighterSmall":2},
+		},
+		"freighterLarge":{
+			"heavy_cruiser":10,
+			"fallback":{"freighterMedium":2},
+		},
+		
+		"tankerSmall":{
+			"carrack_light":10,
+			"fallback":{"tankerMedium":0.5},
+		},
+		"tankerMedium":{
+			"carrack_light":10,
+			"fallback":{"tankerSmall":2},
+		},
+		"tankerLarge":{
+			"heavy_cruiser":10,
+			"fallback":{"tankerMedium":2},
+		},
+		
+		"personnelSmall":{
+			"fighter_control":10,
+			"fallback":{"personnelMedium":0.5},
+		},
+		"personnelMedium":{
+			"carrack_light":10,
+			"fallback":{"personnelSmall":2},
+		},
+		"personnelLarge":{
+			"heavy_cruiser":10,
+			"fallback":{"personnelMedium":2},
+		},
+		
+		# utility ships
+		"tug":{
+			"ox_Standard":10,
+			"fallback":{"utility":1},
+		},
+		"crig":{
+			"crig_Standard":10,
+			"fallback":{"utility":1},
+		},
+		"utility":{
+			"crig_Standard":10,
+			"ox_Standard":10,
+		},
+	},
+    "traits":{
+        "admiral":{         
+        },
+        "captain":{
+            "timid":1,
+            "cautious":1,
+            "steady":10,
+            "aggressive":10,
+            "reckless":1,
+            },
+        },
+	"doctrine":{
+        # ship distribution
+        "small":5,
+        "fast":1,
+        "medium":5,
+        "large":10,
+        "capital":10,
+
+        # as fraction of combat ships of same size
+        "escortSmallFraction":1,
+        "escortMediumFraction":1,
+
+        # freighters tend to be dedicated to role
+        "combatFreighterProbability":0.25,
+
+        # tend toward larger ships
+        "minPointsForCombatCapital":15,
+        "minPointsForLargeCarrier":10,
+
+        # increased preference for carriers
+        "smallCarrierProbability":0.4,
+        "mediumCarrierProbability":0.5,
+        "largeCarrierProbability":0.6,
+
+        # officers ; TriTachyon is somewhat elite
+        "officersPerPoint":0.45,
+        "officerLevelPerPoint":0.4,
+        "officerLevelBase":10,
+        "officerLevelVariance":1,
+
+
+		"commanderSkillsPerLevel":0.2,
+		"commanderSkillChance":0.5,
+		"commanderSkillLevelPerLevel":0.3,
+		"commanderSkills":{
+			"officer_management":2,
+			"coordinated_maneuvers":7,
+			"fighter_doctrine":10,
+			"electronic_warfare":10,
+		},
+    },	
+},

@@ -1,0 +1,12 @@
+{
+    "id":"sw_interdictor_system",
+    "type":"STAT_MOD",
+    "aiType":"NONE",
+    #"aiType":"CUSTOM",
+    #"aiScript":"data.shipsystems.scripts.ai.InterdictorSystemAIScript",
+
+    "statsScript":"data.shipsystems.scripts.InterdictorSystemScript",
+
+    #"useSound":"Effect_NanoDisruptor",
+    #"outOfUsesSound":"gun_out_of_ammo",
+}

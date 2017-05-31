@@ -1,0 +1,85 @@
+{
+  "displayName": "Mk II",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "victory_mkii",
+  "hullMods": [
+  ],
+  "variantId": "mkii_vic",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "r1": "imp_heavy_turbo",
+        "r10": "imp_heavy_turbo",
+        "r2": "imp_heavy_turbo",
+        "r3": "imp_heavy_turbo",
+        "r4": "imp_heavy_turbo",
+        "r5": "imp_heavy_turbo",
+        "r6": "imp_heavy_turbo",
+        "r7": "imp_heavy_turbo",
+        "r8": "imp_heavy_turbo",
+        "r9": "imp_heavy_turbo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "l1": "imp_heavy_turbo",
+        "l10": "imp_heavy_turbo",
+        "l2": "imp_heavy_turbo",
+        "l3": "imp_heavy_turbo",
+        "l4": "imp_heavy_turbo",
+        "l5": "imp_heavy_turbo",
+        "l6": "imp_heavy_turbo",
+        "l7": "imp_heavy_turbo",
+        "l8": "imp_heavy_turbo",
+        "l9": "imp_heavy_turbo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0021": "imp_turbo_batt",
+        "WS0022": "imp_turbo_batt",
+        "WS0023": "imp_turbo_batt",
+        "WS0024": "imp_turbo_batt",
+        "WS0025": "imp_turbo_batt",
+        "WS0026": "imp_turbo_batt",
+        "WS0027": "imp_turbo_batt",
+        "WS0028": "imp_turbo_batt",
+        "WS0029": "imp_turbo_batt",
+        "WS0030": "imp_turbo_batt",
+        "WS0031": "imp_turbo_batt",
+        "WS0032": "imp_turbo_batt",
+        "WS0033": "imp_turbo_batt",
+        "WS0034": "imp_turbo_batt",
+        "WS0035": "imp_turbo_batt",
+        "WS0036": "imp_turbo_batt",
+        "WS0037": "imp_turbo_batt",
+        "WS0038": "imp_turbo_batt",
+        "WS0039": "imp_turbo_batt",
+        "WS0040": "imp_turbo_batt"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0041": "imp_ion_heavy",
+        "WS0042": "imp_ion_heavy",
+        "WS0043": "imp_ion_heavy",
+        "WS0044": "imp_ion_heavy",
+        "WS0045": "imp_ion_heavy",
+        "WS0046": "imp_ion_heavy",
+        "WS0047": "imp_ion_heavy",
+        "WS0048": "imp_ion_heavy",
+        "WS0049": "imp_ion_heavy",
+        "WS0050": "imp_ion_heavy"
+      }
+    }
+  ]
+}

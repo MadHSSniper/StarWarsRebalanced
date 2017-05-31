@@ -1,0 +1,268 @@
+{
+	id:"rebelalliance",
+	"color":[255,0,0,255],
+	"displayName":"Rebel Alliance",
+	"displayNameWithArticle":"The Rebel Alliance",
+	"displayNameLong":"Rebel Alliance",
+	"displayNameLongWithArticle":"The Rebel Alliance",
+	"entityNamePrefix":"",
+	"personNamePrefix":"rebel",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/SWRebalanced/factions/rebelalliance.png",
+	"crest":"graphics/SWRebalanced/factions/crest_rebelalliance.png",
+	"shipNamePrefix":"RA",
+	"shipNameSources":{
+		"REBEL":1,
+	},
+	"description":"No description yet.",
+	"names":{
+		"fringe":1,
+		"modern":1,
+	},
+	"portraits":{
+		"standard_male":[
+			"graphics/SWRebalanced/portraits/portrait_rebel_1.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_2.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_3.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_4.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_5.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_6.png",
+		],
+		"standard_female":[
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_1.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_2.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_3.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_4.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_5.png",
+		],
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":false,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":1,
+		"buysSurveyData":true,
+	},
+	"fleetTypeNames":{
+		"mercScout":"Mercenary Scout",
+		"mercBountyHunter":"Bounty Hunter",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Mercenary Patrol",
+		"mercArmada":"Mercenary Company",
+	},
+	"shipRoles":{
+		"fastAttack":{
+			"blockade_runner":10,
+			"millenium_falcon":10,
+			"fallback":{"combatSmall":1},
+		},
+	
+		"escortSmall":{
+			"mc30_frigate":5,
+			"blockade_runner":10,
+			"millenium_falcon":10,
+			"fallback":{"combatSmall":1},
+		},
+		"escortMedium":{
+			"blockade_runner":10,
+			"millenium_falcon":10,
+			"mc30_frigate":10,
+			"nebulon_frigate":5,
+			"fallback":{"combatMedium":1},
+		},
+		
+		"combatSmall":{
+			"rebel_frigate":2,
+			"mc30_frigate":10,
+			"nebulon_frigate":5,
+			"blockade_runner":10,
+			"millenium_falcon":10,
+			"fallback":{"escortSmall":1},
+		},
+		"combatMedium":{
+			"mc40_cruiser":5,
+			"rebel_frigate":10,
+			"mc30_frigate":10,
+			"nebulon_frigate":10,
+			"blockade_runner":10,
+			"millenium_falcon":5,
+			"fallback":{"combatSmall":2},
+		},
+		"combatLarge":{
+			"attack_cruiser":5,
+			"mc40_cruiser":2,
+			"rebel_frigate":10,
+			"mc30_frigate":10,
+			"nebulon_frigate":10,
+			"blockade_runner":10,
+			"millenium_falcon":5,
+			"fallback":{"combatMedium":2},
+		},
+		"combatCapital":{
+			"mc80_liberty":5,
+			"attack_cruiser":5,
+			"mc40_cruiser":2,
+			"rebel_frigate":10,
+			"mc30_frigate":10,
+			"nebulon_frigate":10,
+			"blockade_runner":10,
+			"millenium_falcon":5,
+			"fallback":{"combatLarge":2},
+		},
+		
+		
+		# hybrid ships with good combat and cargo capacity
+		"combatFreighterSmall":{
+			"millenium_falcon":10,
+			"fallback":{"freighterSmall":1},
+		},
+		"combatFreighterMedium":{
+			"blockade_runner":10,
+			"fallback":{"combatFreighterSmall":2},
+		},
+		"combatFreighterLarge":{
+			"mc40_cruiser":10,
+			"fallback":{"combatFreighterMedium":2},
+		},
+		
+		"civilianRandom":{
+			"mercury_d_Standard":10,
+			"hermes_d_Standard":10,
+			"kite_Standard":10,
+			"mercury_Standard":8,
+			"mercury_FS":3,
+			"hermes_Standard":8,
+			"hermes_FS":4,
+			"starliner_Standard":10,
+			"nebula_Standard":10,
+			"mudskipper_Standard":10,
+			"colossus_Standard":1,
+			"fallback":{"freighterSmall":1},
+		},
+	
+	
+		# carriers
+		"carrierSmall":{
+			"attack_cruiser":10,
+			"fallback":{"carrierMedium":0.5},
+		},
+		"carrierMedium":{
+			"attack_cruiser":10,
+			"fallback":{"carrierSmall":2},
+		},
+		"carrierLarge":{
+			"mc80_liberty":10,
+			"fallback":{"carrierMedium":4},
+		},
+	
+		# freighters and such
+		"freighterSmall":{
+			"millenium_falcon":10,
+			"fallback":{"freighterMedium":0.5},
+		},
+		"freighterMedium":{
+			"blockade_runner":10,
+			"fallback":{"freighterSmall":2},
+		},
+		"freighterLarge":{
+			"mc40_cruiser":10,
+			"fallback":{"freighterMedium":2},
+		},
+		
+		"tankerSmall":{
+			"millenium_falcon":10,
+			"fallback":{"tankerMedium":0.5},
+		},
+		"tankerMedium":{
+			"blockade_runner":10,
+			"fallback":{"tankerSmall":2},
+		},
+		"tankerLarge":{
+			"mc40_cruiser":10,
+			"fallback":{"tankerMedium":2},
+		},
+		
+		"personnelSmall":{
+			"blockade_runner":10,
+			"fallback":{"personnelMedium":0.5},
+		},
+		"personnelMedium":{
+			"nebulon_frigate":10,
+			"fallback":{"personnelSmall":2},
+		},
+		"personnelLarge":{
+			"rebel_frigate":10,
+			"fallback":{"personnelMedium":2},
+		},
+		
+		# utility ships
+		"tug":{
+			"ox_Standard":10,
+			"fallback":{"utility":1},
+		},
+		"crig":{
+			"crig_Standard":10,
+			"fallback":{"utility":1},
+		},
+		"utility":{
+			"crig_Standard":10,
+			"ox_Standard":10,
+		},
+	},
+    "traits":{
+        "admiral":{         
+        },
+        "captain":{
+            "timid":1,
+            "cautious":5,
+            "steady":10,
+            "aggressive":5,
+            "reckless":1,
+            },
+        },
+	"doctrine":{
+		# ship distribution
+		## tending toward small & defensive
+		"small":10,
+		"fast":5,
+		"medium":10,
+		"large":5,
+		"capital":1,
+		
+		# as fraction of combat ships of same size
+		"escortSmallFraction":1,
+		"escortMediumFraction":1,
+		
+		## poorly armed
+		"combatFreighterProbability":0.30,
+		
+		## poor access to capital ships
+		"minPointsForCombatCapital":30,
+		"minPointsForLargeCarrier":30,
+		
+		## slight preference for carriers
+		"smallCarrierProbability":0.30,
+		"mediumCarrierProbability":0.30,
+		"largeCarrierProbability":0.30,
+		
+		# officers
+		## fewer officers, less training
+		"officersPerPoint":0.20,
+		"officerLevelPerPoint":0.18,
+		"officerLevelBase":4,
+		"officerLevelVariance":0.2,
+		
+		"commanderSkillsPerLevel":0.2,
+		"commanderSkillChance":0.3,
+		"commanderSkillLevelPerLevel":0.15,
+		"commanderSkills":{
+			"officer_management":10,
+			"coordinated_maneuvers":10,
+			"fighter_doctrine":10,
+			"electronic_warfare":10,
+		},
+	},
+},

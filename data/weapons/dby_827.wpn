@@ -1,0 +1,30 @@
+{
+	"id":"dby_827",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":1100,
+  "turretSprite": "graphics/rebel/weapons/dby_basel.png",
+  "turretGunSprite": "graphics/rebel/weapons/dby_recoil.png",
+    #"turretGlowSprite":"graphics/empire/weapons/sw_laser_turbo_turret_glow.png",
+	"hardpointSprite":"graphics/empire/weapons/sw_laser_turbo_hardpoint_base.png",
+    "hardpointGunSprite":"graphics/empire/weapons/sw_laser_turbo_hardpoint_recoil.png",	
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[12, -2, 12, 2],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[28, -4, 30, 0],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # ALTERNATING or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":7.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.12,
+					   "particleCount":15,
+					   "particleColor":[125,125,255,255]},
+    "autocharge":true,
+	"projectileSpecId":"dby_827_shot",  # projectile that will be fired
+	"fireSoundTwo":"sw_sound_laser_turbo",	
+}

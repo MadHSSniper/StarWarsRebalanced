@@ -1,0 +1,173 @@
+{
+	### PLANETS ###
+	"hoth":{
+		"name":"Hoth",
+		"descriptionId":"hoth",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,100],
+		"texture":"graphics/SWRebalanced/planets/hoth.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[255,255,255,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"coruscant":{
+		"name":"Coruscant",
+		"descriptionId":"coruscant",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,100,30,100],
+		"texture":"graphics/SWRebalanced/planets/coruscant.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[100,100,0,255],
+		"isStar":false,
+		"lightPosition":[0,0,50], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"glowTexture":"graphics/SWRebalanced/planets/coruscant.png", # omit for no glow layer   original: coruscant_glow.png
+		"glowColor":[255,255,255,255],
+		"useReverseLightForGlow":false,
+	},
+	"dagobah":{
+		"name":"Dagobah",  #jungle
+		"descriptionId":"dagobah",
+		"tilt":-40, # left-right (>0 tilts to the left)
+		"pitch":12, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-2.6, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.32, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":38, #  minimum thickness in pixels
+		"atmosphereColor":[70,110,130,100],
+		"texture":"graphics/SWRebalanced/planets/dagobah.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[50,200,100,255],
+		"isStar":false,
+		"lightPosition":[-5,-0.5,9], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[70,115,140,235],
+		"cloudRotation":-6, # degrees/second, optional
+	},	
+	"endor":{
+		"name":"Endor", #terran
+		"descriptionId":"endor",
+		"tilt":20, # left-right (>0 tilts to the left)
+		"pitch":-3, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[60,160,215,100],
+		"texture":"graphics/SWRebalanced/planets/endor.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[50,200,50,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[235,240,250,225],
+		"cloudRotation":-5, # degrees/second, optional
+	},
+	"yavin":{
+		"name":"Yavin 4", #terran
+		"descriptionId":"yavin",
+		"tilt":-20, # left-right (>0 tilts to the left)
+		"pitch":-3, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[60,160,215,100],
+		"texture":"graphics/SWRebalanced/planets/endor.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[50,200,50,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[235,240,250,225],
+		"cloudRotation":-5, # degrees/second, optional
+	},
+	"tatooine":{
+		"name":"Tatooine",  #desert
+		"descriptionId":"tatooine",
+		"tilt":30, # left-right (>0 tits to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[150,150,145,100],
+		"texture":"graphics/SWRebalanced/planets/tatooine.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[255,120,0,255],
+		"isStar":false,
+		"lightPosition":[-2,2,7], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"yavin_gas":{
+		"name":"Yavin Gas Giant",
+		"descriptionId":"gas_giant",
+		"tilt":-10, # left-right (>0 tilts to the left)
+		"pitch":-15, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.2, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":62, #  minimum thickness in pixels - used when radius * atmosphereThickness is really low
+		"atmosphereColor":[180,40,0,100],
+		"texture":"graphics/SWRebalanced/planets/yavin_gas.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[180,40,0,255],
+		"isStar":false,
+		"isGasGiant":true,
+		"lightPosition":[5,-2,3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[180,40,0,200],
+		"cloudRotation":-7, # degrees/second, optional
+	},
+	"lava":{
+		"name":"Volcanic",
+		"tilt":-20, # left-right (>0 tilts to the left)
+		"pitch":-5, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3.5, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[215,50,15,60],
+		"texture":"graphics/planets/lava_major.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[215,115,55,255],
+		"isStar":false,
+		"lightPosition":[0,0,50], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"glowTexture":"graphics/planets/lava_major_glow.png", # omit for no glow layer
+		"glowColor":[255,255,255,255],
+		"useReverseLightForGlow":false,
+	},
+	"mon_cala":{
+		"name":"Mon Cala",
+		"descriptionId":"mon_cala",
+		"tilt":25, # left-right (>0 tilts to the left)
+		"pitch":5, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.4, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[0,30,160,100],
+		"texture":"graphics/SWRebalanced/planets/mon_cala.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[0,50,255,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[200,200,200,200],
+		"cloudRotation":-7, # degrees/second, optional
+	},
+}
+
+
+
+
+

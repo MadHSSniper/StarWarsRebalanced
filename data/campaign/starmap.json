@@ -1,0 +1,11 @@
+{
+	"starSystemLocations":{
+		"Coruscant":[6500, 17000],
+		"Endor":[2896, 9828],
+		"Yavin":[11312, 21186],
+		"Tatooine":[13265, 9930],
+		"Dagobah":[8222, 7013],
+		"Hoth":[5505, 7984],
+		"Mon Calamari":[16025, 20465],
+	}
+}

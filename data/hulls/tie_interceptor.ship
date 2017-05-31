@@ -1,0 +1,104 @@
+{
+  "bounds": [
+    30,
+    -12.5,
+    -13,
+    -12.5,
+    -13,
+    12.5,
+    30,
+    12.5
+  ],
+  "center": [
+    14.5,
+    13
+  ],
+  "collisionRadius": 17.951323,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 9.5,
+      "location": [
+        -4.5,
+        -2
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 9.5,
+      "location": [
+        -4.5,
+        2
+      ],
+      "style": "HIGH_TECH",
+      "width": 4
+    }
+  ],
+  "height": 45,
+  "hullId": "tie_interceptor",
+  "hullName": "TIE/in",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    9,
+    -0
+  ],
+  "shieldRadius": 25.5196,
+  "spriteName": "graphics/empire/ships/tie_interceptor.png",
+  "style": "GALACTIC_EMPIRE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "left_wing_laser1",
+      "locations": [
+        24,
+        13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "right_wing_laser2",
+      "locations": [
+        24,
+        -13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        24.5,
+        13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        24.5,
+        -13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 29
+}

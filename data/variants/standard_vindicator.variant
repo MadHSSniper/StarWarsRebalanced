@@ -1,0 +1,63 @@
+{
+  "displayName": "Heavy",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "vindicator_cruiser",
+  "hullMods": [
+  ],
+  "variantId": "standard_vindicator",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0046": "imp_pd_cannon",
+        "WS0047": "imp_pd_cannon",
+        "WS0048": "imp_pd_cannon",
+        "WS0049": "imp_pd_cannon",
+        "WS0050": "imp_pd_cannon",
+        "WS0051": "imp_pd_cannon",
+        "WS0052": "imp_pd_cannon",
+        "WS0053": "imp_pd_cannon",
+        "WS0054": "imp_pd_cannon",
+        "WS0055": "imp_pd_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0056": "imp_pd_gun",
+        "WS0057": "imp_pd_gun",
+        "WS0058": "imp_pd_gun",
+        "WS0059": "imp_pd_gun",
+        "WS0060": "imp_pd_gun",
+        "WS0061": "imp_pd_gun",
+        "WS0062": "imp_pd_gun",
+        "WS0063": "imp_pd_gun",
+        "WS0064": "imp_pd_gun",
+        "WS0065": "imp_pd_gun",
+        "WS0066": "imp_pd_gun",
+        "WS0067": "imp_pd_gun",
+        "WS0069": "imp_pd_gun",
+        "WS0070": "imp_pd_gun",
+        "WS0071": "imp_pd_gun",
+        "WS0072": "imp_pd_gun",
+        "WS0073": "imp_pd_gun",
+        "WS0074": "imp_pd_gun",
+        "WS0075": "imp_pd_gun",
+        "WS0077": "imp_pd_gun"
+      }
+    }
+  ]
+}

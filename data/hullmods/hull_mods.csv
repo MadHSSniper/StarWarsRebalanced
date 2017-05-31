@@ -1,0 +1,6 @@
+name,id,tier,rarity,tags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Rebel Flagship,rebel_flagship,,,,,,TRUE,,0,0,0,0,data.hullmods.AckbarsShip,"Being the flagship of the Rebel Alliance it possesses %s bonus weapon range and improved sensor arrays with %s more power.","Increased weapon and sensor range",graphics/hullmods/generic_mod.png
+Blockade Runner,blockade_runner,,,,,,TRUE,,0,0,0,0,data.hullmods.BlockadeRunner,"This ship was built to evade the blockades set by the Empire. As such it has %s increased maneuverability and is able to benefit from the zero flux speed bonus at up to %s of the ship's maximum flux capacity.","Increased handling and increased zero flux bonus levels",graphics/SWRebalanced/hullmods/blockade_runner.png
+Imperial Technology,imperial_tech,,,,,,TRUE,,0,0,0,0,data.hullmods.ImperialTechnology,"Coming Soon...","Coming Soon",graphics/SWRebalanced/hullmods/imperial_seal.png
+Imperial Training,imperial_training,,,,,,TRUE,,0,0,0,0,data.hullmods.ImperialTraining,"Coming Soon...","Coming Soon",graphics/SWRebalanced/hullmods/imperial_seal.png
+Rebel Desperation,rebel_despair,,,,,,TRUE,,0,0,0,0,data.hullmods.RebelImprovisations,"Coming Soon...","Coming Soon",graphics/hullmods/generic_mod.png

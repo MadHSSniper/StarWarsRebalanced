@@ -1,0 +1,12 @@
+{
+    "id":"sw_dby_rangemode",
+    "type":"STAT_MOD",
+    #"aiType":"HIGH_ENERGY_FOCUS",
+    "aiType":"NONE", #"CUSTOM",
+    #"aiScript":"data.shipsystems.scripts.ai.ConcentratedFireAIScript",
+
+    "statsScript":"data.shipsystems.scripts.DBYRangeModeScript",
+
+    #"useSound":"missile_heavy",
+    #"outOfUsesSound":"gun_out_of_ammo",
+}

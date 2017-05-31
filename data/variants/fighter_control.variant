@@ -1,0 +1,49 @@
+{
+  "displayName": "Anti-Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "lancer_frigate",
+  "hullMods": [
+  ],
+  "variantId": "fighter_control",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "c1": "imp_quad_laser_cannon",
+        "c2": "imp_quad_laser_cannon",
+        "c3": "imp_quad_laser_cannon",
+        "c4": "imp_quad_laser_cannon",
+        "c5": "imp_quad_laser_cannon",
+        "c6": "imp_quad_laser_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "l1": "imp_quad_laser_cannon",
+        "l2": "imp_quad_laser_cannon",
+        "l3": "imp_quad_laser_cannon",
+        "l4": "imp_quad_laser_cannon",
+        "l5": "imp_quad_laser_cannon",
+        "l6": "imp_quad_laser_cannon",
+        "l7": "imp_quad_laser_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "r1": "imp_quad_laser_cannon",
+        "r2": "imp_quad_laser_cannon",
+        "r3": "imp_quad_laser_cannon",
+        "r4": "imp_quad_laser_cannon",
+        "r5": "imp_quad_laser_cannon",
+        "r6": "imp_quad_laser_cannon",
+        "r7": "imp_quad_laser_cannon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "displayName": "Light",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "carrack_cruiser",
+  "hullMods": [
+  ],
+  "variantId": "carrack_light",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "ht1": "imp_heavy_turbo",
+        "ht10": "imp_heavy_turbo",
+        "ht2": "imp_heavy_turbo",
+        "ht3": "imp_heavy_turbo",
+        "ht4": "imp_heavy_turbo",
+        "ht5": "imp_heavy_turbo",
+        "ht6": "imp_heavy_turbo",
+        "ht7": "imp_heavy_turbo",
+        "ht8": "imp_heavy_turbo",
+        "ht9": "imp_heavy_turbo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "l1": "imp_laser_cannon",
+        "l10": "imp_laser_cannon",
+        "l2": "imp_laser_cannon",
+        "l3": "imp_laser_cannon",
+        "l4": "imp_laser_cannon",
+        "l5": "imp_laser_cannon",
+        "l6": "imp_laser_cannon",
+        "l7": "imp_laser_cannon",
+        "l8": "imp_laser_cannon",
+        "l9": "imp_laser_cannon"
+      }
+    }
+  ]
+}

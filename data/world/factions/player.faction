@@ -1,0 +1,23 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/SWRebalanced/portraits/portrait_empire_1.png",
+			"graphics/SWRebalanced/portraits/portrait_empire_2.png",
+			"graphics/SWRebalanced/portraits/portrait_empire_3.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_1.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_2.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_3.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_4.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_5.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_6.png",
+		],
+		"standard_female":[
+			"graphics/SWRebalanced/portraits/portrait_empire_female.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_1.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_2.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_3.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_4.png",
+			"graphics/SWRebalanced/portraits/portrait_rebel_female_5.png",
+		],
+	},
+},

@@ -1,0 +1,51 @@
+{
+  "displayName": "Escort",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "nebulon_b",
+  "hullMods": [
+  ],
+  "variantId": "nebulon_frigate",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "reb_dual_turbo",
+        "WS0009": "reb_dual_turbo",
+        "f1": "reb_dual_turbo",
+        "f2": "reb_dual_turbo",
+        "f3": "reb_dual_turbo",
+        "f4": "reb_dual_turbo",
+        "f5": "reb_dual_turbo",
+        "f6": "reb_dual_turbo",
+        "r1": "reb_dual_turbo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "reb_dual_turbo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "reb_laser_cannon",
+        "WS0014": "reb_laser_cannon",
+        "WS0015": "reb_laser_cannon",
+        "WS0016": "reb_laser_cannon",
+        "WS0017": "reb_laser_cannon",
+        "WS0018": "reb_laser_cannon",
+        "WS0019": "reb_laser_cannon",
+        "WS0020": "reb_laser_cannon",
+        "WS0021": "reb_laser_cannon",
+        "WS0022": "reb_laser_cannon",
+        "WS0023": "reb_laser_cannon",
+        "WS0024": "reb_laser_cannon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+ln_wing,line_fighter,"fighter1, fighter, high",0,,2,4,V,5000,500,6,FIGHTER,Fighter,5,2000,,,,,,,,,,,,,1
+int_wing,tie_int,"fighter2, fighter, high",0,,3,6,V,4000,300,6,INTERCEPTOR,Interceptor,5,3500,,,,,,,,,,,,,2
+sa_wing,tactical_bomber,"bomber1, bomber, high",1,,4,8,BOX,4000,2000,4,BOMBER,Bomber,15,4000,,,,,,,,,,,,,3
+a_wing,rz1_interceptor,"fighter3, fighter, high",0,,3,6,CLAW,4000,500,6,FIGHTER,Fighter,10,4500,,,,,,,,,,,,,4
+y_wing,btl_bomber,"bomber2, bomber, high",1,,6,10,BOX,4000,2000,4,BOMBER,Bomber,15,6500,,,,,,,,,,,,,5
+x_wing,t_65,"fighter4, fighter, high",1,,5,8,V,5000,500,6,FIGHTER,Fighter,15,7500,,,,,,,,,,,,,6
+b_wing,blade_wing,"support1, support high",1,,8,14,BOX,5000,2500,4,SUPPORT,Support,20,8500,,,,,,,,,,,,,7
+bb_wing,gat_12,"support2, support, high",2,,10,18,BOX,5000,2500,4,SUPPORT,Support,25,10000,,,,,,,,,,,,,8

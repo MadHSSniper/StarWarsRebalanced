@@ -1,0 +1,29 @@
+{
+  "displayName": "Corellian",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "cr90_corvette",
+  "hullMods": [
+  ],
+  "variantId": "blockade_runner",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "reb_dual_turbo",
+        "WS0006": "reb_dual_turbo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "reb_turbo_single",
+        "WS0002": "reb_turbo_single",
+        "WS0003": "reb_turbo_single",
+        "WS0004": "reb_turbo_single"
+      }
+    }
+  ]
+}
