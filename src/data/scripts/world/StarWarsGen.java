@@ -13,13 +13,13 @@ public class StarWarsGen implements SectorGeneratorPlugin {
     @Override
     public void generate(SectorAPI sector) {
         //sector generation code
-        new CoruscantSystem().generate(sector);  //Imperial HQ
-        new HothSystem().generate(sector);       //Rebel Base
-        new TatooineSystem().generate(sector);   //Story related
-        new DagobahSystem().generate(sector);    //Story related
-        new EndorSystem().generate(sector);      //Imperial outpost
-        new YavinSystem().generate(sector);      //Rebel HQ
-        new MonCalamariSystem().generate(sector);//Mon Calamari
+        new CoruscantSystem().generate(sector);     //Imperial HQ
+        new HothSystem().generate(sector);          //Rebel Base
+        new TatooineSystem().generate(sector);      //Story related
+        new DagobahSystem().generate(sector);       //Story related
+        new EndorSystem().generate(sector);         //Imperial outpost
+        new YavinSystem().generate(sector);         //Rebel HQ
+        new MonCalamariSystem().generate(sector);   //Mon Calamari
 
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("galacticempire");
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("rebelalliance");
