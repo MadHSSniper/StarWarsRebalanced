@@ -46,6 +46,7 @@ public class InterdictorSystemScript implements ShipSystemStatsScript {
         // Disable zero flux speed bonus
         ship.getMutableStats().getZeroFluxMinimumFluxLevel().modifyFlat(DEBUFF_ID, 1f);
         ship.getMutableStats().getZeroFluxSpeedBoost().modifyMult(DEBUFF_ID, 0f);
+        ship.getMutableStats().getMaxSpeed().modifyMult(DEBUFF_ID, 0.75f);
     }
 
     @Override
