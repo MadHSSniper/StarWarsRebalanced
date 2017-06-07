@@ -1,16 +1,16 @@
 {
-	"id":"hyperspacejump",
+	"id":"sw_hyperspacejump",
 	"type":"TELEPORTER",
 	"aiType":"PHASE_TELEPORTER",
-	"statsScript":"data.shipsystems.scripts.HyperspaceJumpStats",
+	"statsScript":"data.shipsystems.scripts.HyperspaceJumpScript",
 
 	"jitterColor":[80,80,80,250],
 	"jitterCopies":12,
 	"jitterRange":20,
 	"jitterRangeRadiusFraction":0.4,
 
-	"range":2000,
-	"randomRange":0,
+	"range":3000,
+	"randomRange":50,
 	
     "renderCopyDuringTeleport":false,
     "vulnerableChargeup":true,	

@@ -79,5 +79,8 @@
         "WS0040": "reb_laser_cannon"
       }
     }
-  ]
+  ],
+    "wings": [
+        "x_wing"
+    ]
 }

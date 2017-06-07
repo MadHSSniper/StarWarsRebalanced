@@ -1,3 +1,24 @@
+[2017/06/--]
+  (v0.-.-)
+    - Added more ships to the menu/simulator;
+	- Tweaks to fighter wing stats;
+
+[2017/06/04]
+  (v0.5.1)
+    - Added sound to fighter weapons;
+	- Fixed use of wings in main menu;
+	- Added fighter wings to ships that should have wings (woops);
+	- Added fighter bays to some ships;
+
+[2017/06/03]
+  (v0.5)
+    - Removed Tractor Beam, needs fixing;
+	- Fixed use of wings in simulator;
+	- Added new ship system: Hyperspace Jump (experimental system, available in Imperial-I Star Destroyer);
+	- Adjusted Gravity Well ship system;
+	- Renamed classes and files to prevent some possible compatibility issues with other mods;
+	- File and code cleanup;
+
 [2017/05/31]
   (v0.4.1)
     - Fixed AddMarketplace error;

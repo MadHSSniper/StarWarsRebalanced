@@ -8,7 +8,11 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
+import com.fs.starfarer.api.campaign.events.CampaignEventManagerAPI;
+import com.fs.starfarer.api.campaign.events.CampaignEventPlugin;
+import com.fs.starfarer.api.campaign.events.CampaignEventTarget;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
+import com.fs.starfarer.api.impl.campaign.ids.Events;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.StarTypes;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
@@ -17,6 +21,7 @@ import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
+import data.scripts.campaign.SWStoryline;
 import data.scripts.world.SW_AddMarket;
 import data.scripts.world.SW_PlanetTypes;
 import data.scripts.world.PlanetTypes;
@@ -36,7 +41,7 @@ public class TatooineSystem implements SectorGeneratorPlugin {
         system.setType(StarSystemGenerator.StarSystemType.BINARY_CLOSE);
         PlanetAPI tatoo1 = system.initStar("tatoo1", StarTypes.YELLOW, 400f, 300);
         tatoo1.setName("Tatoo I");
-        
+
         PlanetAPI tatoo2 = system.addPlanet("tatoo2", tatoo1, "Tatoo II", StarTypes.YELLOW, 10, 300, 2000, 1000);
         system.setSecondary(tatoo2);
         system.addCorona(tatoo2, 200, 2f, 0f, 1f);
@@ -68,6 +73,18 @@ public class TatooineSystem implements SectorGeneratorPlugin {
                 0.25f
         );
 
+        //SWStoryline event = new SWStoryline();
+        CampaignEventPlugin event = (CampaignEventPlugin) new SWStoryline();
+                
+        CampaignEventManagerAPI eventManager = Global.getSector().getEventManager();
+        CampaignEventTarget target = new CampaignEventTarget(tatooine);
+        target.setExtra(Misc.genUID());
+        
+        //event = (SWStoryline) eventManager.primeEvent(target, "SWStoryline", this);
+        event = eventManager.primeEvent(target, "SWStoryline", this);
+        eventManager.startEvent(event);
+
+        
         JumpPointAPI tatooineJumpPoint = Global.getFactory().createJumpPoint("TatooineJumpPoint", "Tatooine Jump-Point");
         OrbitAPI orbit = Global.getFactory().createCircularOrbit(tatoo1, 70, 4000, 304);
         tatooineJumpPoint.setOrbit(orbit);

@@ -8,13 +8,6 @@
   "variantId": "interdictor_frigate",
   "weaponGroups": [
     {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0021": "tractor_beam"
-      }
-    },
-    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
@@ -40,5 +33,8 @@
         "WS0020": "imp_quad_laser_cannon"
       }
     }
-  ]
+  ],
+    "wings": [
+        "ln_wing"
+    ]
 }

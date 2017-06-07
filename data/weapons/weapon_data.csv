@@ -25,9 +25,6 @@ Heavy Proton Torpedo,proton_torp_heavy,3,,1000,3000,,2500,,500,0,0,100,,,HIGH_EX
 Diamond Boron Missile,d_missile,3,,200,3000,,3500,,500,0,0,12,,,HIGH_EXPLOSIVE,0,,0,15,1,,,,,,,1500,500,75,1000,STRIKE, USE_VS_FRIGATES, ANTI_FTR, DO_NOT_AIM,,81.04
 Assault Concussion Missle,concussion_missle_assault,3,,200,3000,,3000,,500,0,0,100,,,HIGH_EXPLOSIVE,0,,0,15,1,,,,,,,1500,500,75,1250,STRIKE, USE_VS_FRIGATES, ANTI_FTR, DO_NOT_AIM,,81.04
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Bombardment Turbolaser,bombardment_turbolaser,3,,3000,10000,,600,,200,10,0,,,,ENERGY,0,,0,6,4,0.2,1,5,1,0.5,,1500,,,,STRIKE, USE_VS_FRIGATES,,70.5
-Bombardment Cannon,bombardment_battery,3,,3000,10000,,1000,,200,10,0,,,,ENERGY,0,,0,6,4,0.2,1,5,1,0.5,,1500,,,,STRIKE, USE_VS_FRIGATES,,70.5
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Octuple Barbette Turbolaser,imp_barbette_turbo,3,,3000,2500,,50,,100,15,0,,,,ENERGY,0,,0,7.5,8,0.15,1,5,1,0.5,,1500,,,,STRIKE, USE_VS_FRIGATES,,70.3
 Heavy Turbolaser Main Battery,imp_main_battery,3,,3000,2500,,75,,100,15,0,,,,ENERGY,0,,0,7.5,4,0.2,1,5,1,0.5,,1500,,,,STRIKE, USE_VS_FRIGATES,,70.5
 Heavy Ion Main Battery,imp_ion_battery,3,,2500,3000,,0,4250,100,20,0,,,,ENERGY,0,,0,10,4,0.1,,,1,0.5,,1500,,,,STRIKE, USE_VS_FRIGATES,,71.265

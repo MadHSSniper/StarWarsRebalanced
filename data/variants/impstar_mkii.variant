@@ -1,5 +1,5 @@
 {
-  "displayName": "Mk II",
+  "displayName": "Imperial II",
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "hullId": "mkii_sd",
@@ -191,5 +191,9 @@
         "turbo9": "imp_turbo_batt"
       }
     }
-  ]
+  ],
+    "wings": [
+        "int_wing",
+        "sa_wing"
+    ]
 }

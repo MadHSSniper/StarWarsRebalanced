@@ -93,5 +93,10 @@
         "stern_batt_r3": "reb_turbo_batt_m"
       }
     }
-  ]
+  ],
+    "wings": [
+        "a_wing",
+        "y_wing",
+        "y_wing"
+    ]
 }

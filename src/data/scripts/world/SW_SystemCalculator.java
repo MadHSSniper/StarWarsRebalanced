@@ -45,9 +45,11 @@ public class SW_SystemCalculator {
     }
     
     /**
-     *
-     * X and Y offsets relative to the root coordinates.
+     * 
      * Visit http://www.swgalaxymap.com/ to get X and Y coordinates of a system
+     * 
+     * @param x X coordinate from the map
+     * @param y Y coordinate from the map
      */
     public static Vector2f getCoords(Float x, Float y) {
         return new Vector2f(X + (x * MULTIPLIER), Y + (y * MULTIPLIER));
@@ -55,8 +57,9 @@ public class SW_SystemCalculator {
 
     /**
      *
-     * Receives X axis offset relative to root coordinate.
      * Visit http://www.swgalaxymap.com/ to get X coordinate of a system
+     * 
+     * @param x X coordinate from the map
      */
     public static Float calcX(int x) {
         return X + (x * MULTIPLIER);
@@ -64,8 +67,9 @@ public class SW_SystemCalculator {
 
     /**
      *
-     * Receives Y axis offset relative to root coordinate.
      * Visit http://www.swgalaxymap.com/ to get Y coordinate of a system
+     * 
+     * @param y Y coordinate from the map
      */
     public static Float calcY(int y) {
         return Y + (y * MULTIPLIER);

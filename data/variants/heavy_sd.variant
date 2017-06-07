@@ -391,5 +391,13 @@
         "WS0353": "blue_pd_cannon"
       }
     }
-  ]
+  ],
+    "wings": [
+        "int_wing",
+        "int_wing",
+        "ln_wing",
+        "sa_wing",
+        "sa_wing",
+        "sa_wing"
+    ]
 }

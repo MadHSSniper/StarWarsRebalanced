@@ -8,20 +8,20 @@ import com.fs.starfarer.api.combat.ShipAPI;
 @SuppressWarnings("unchecked")
 public class BlockadeRunner extends BaseHullMod {
 
-    private static final float HANDLING_BONUS = 10f; //10% increase
+    private static final float HANDLING_BONUS = 1.1f; //10% increase
     private static final float ZEROFLUX_MULT = 0.2f; //20% max flux
 
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getMaxSpeed().modifyPercent(id, HANDLING_BONUS);
-        stats.getAcceleration().modifyPercent(id, HANDLING_BONUS);
-        stats.getMaxTurnRate().modifyPercent(id, HANDLING_BONUS);
-        stats.getTurnAcceleration().modifyPercent(id, HANDLING_BONUS);
+        stats.getMaxSpeed().modifyMult(id, HANDLING_BONUS);
+        stats.getAcceleration().modifyMult(id, HANDLING_BONUS);
+        stats.getMaxTurnRate().modifyMult(id, HANDLING_BONUS);
+        stats.getTurnAcceleration().modifyMult(id, HANDLING_BONUS);
         stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZEROFLUX_MULT);
     }
 
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) {
-            return "" + (int) HANDLING_BONUS + "%";
+            return "" + (int) ((HANDLING_BONUS-1)*100) + "%";
         }
         if (index == 1) {
             return "" + (int) (ZEROFLUX_MULT*100) + "%";

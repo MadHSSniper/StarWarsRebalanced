@@ -1,11 +1,11 @@
 {
-  "displayName": "Attack",
+  "displayName": "Imperial",
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "venator_republic",
+  "hullId": "venator_sd",
   "hullMods": [
   ],
-  "variantId": "attack_cruiser",
+  "variantId": "venator",
   "weaponGroups": [
     {
       "autofire": true,
@@ -93,12 +93,10 @@
     }
   ],
     "wings": [
-        "x_wing",
-        "x_wing",
-        "x_wing",
-        "a_wing",
-        "a_wing",
-        "y_wing",
-		"y_wing"
+        "ln_wing",
+        "ln_wing",
+        "sa_wing",
+        "sa_wing",
+        "int_wing"
     ]
 }

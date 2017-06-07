@@ -3,7 +3,7 @@
 	
     "sw_sound_laser_tie":{
         "sounds":[
-            {"file":"sounds/SWRebalanced/fx/lasers/sw_laser_fire_tie.ogg","pitch":1.0,"volume":0.6}
+            {"file":"sounds/SWRebalanced/fx/lasers/sw_laser_fire_tie.ogg","pitch":1.0,"volume":0.4}
 		],
 	},
 	"sw_sound_laser_turbo":{

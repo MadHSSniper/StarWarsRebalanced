@@ -59,5 +59,8 @@
         "WS0077": "imp_pd_gun"
       }
     }
-  ]
+  ],
+    "wings": [
+        "ln_wing"
+    ]
 }

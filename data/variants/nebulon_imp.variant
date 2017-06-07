@@ -43,5 +43,8 @@
         "WS0024": "imp_laser_cannon"
       }
     }
-  ]
+  ],
+    "wings": [
+        "ln_wing"
+    ]
 }

@@ -1,5 +1,5 @@
 {
-  "displayName": "Mk II",
+  "displayName": "Victory II",
   "fluxCapacitors": 0,
   "fluxVents": 0,
   "hullId": "victory_mkii",
@@ -81,5 +81,8 @@
         "WS0050": "imp_ion_heavy"
       }
     }
-  ]
+  ],
+    "wings": [
+        "ln_wing"
+    ]
 }

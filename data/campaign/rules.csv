@@ -1,0 +1,152 @@
+id,trigger,conditions,script,text,options,notes
+# Star Wars Story,,,,,,
+# initial interaction with main contact,,,,,,
+sws_mainContactBegin,PickGreeting,"$sws_mainContact score:100
+$global.swsStage == INIT",ShowPersonVisual,"As you enter Chalmun's Cantina you find a very observant and attentive character carefully watching you from the other end of the room.
+
+You decide to approach him and ask for the reason he can't take his gaze away from you.
+
+""You're not from around here, are you? You seem quite surprised to see so many alien races in one place, if I had to guess I'd say you have never seen a single one of them other than our own.""","0:swsNegative:""I've never seen these sectors... What is all this?""
+1:swsAffirmative:""I've seen lots of systems and different races, nothing new here...""",
+sws_mainBackground1,DialogOptionSelected,$option == swsNegative,,"""Welcome to the dominion of the Galactic Empire. Try not to piss them off or you will be in serious trouble!
+""",0:tutBgCont1:Continue,
+sws_mainGetDataInfo1,DialogOptionSelected,$option == swsAffirmative,,"""You are either a liar or you worry less about the current state of affairs than you should...
+Do you seriously think the Hegemony will protect you? Or the Tri-Tachyon? None of them can face the Empire on it's own!
+
+Sadly for us, both of them are quite friendly towards the Empire so our chances of retaliation get lower by the day...""","0:swsAssign:""Ok, so who can face the Empire?""",
+sws_mainGetDataInfo2,DialogOptionSelected,$option == swsAssign,,"""There is a group of soldiers that keep resisting and fighting back the advances of the Empire, but they are weak and not very effective. They need all the help they can get, and they could use a man with your skills.
+
+You should look for the Rebel Alliance's headquarters and volunteer to help them. I can't give you an exact location because they like to keep it a secret but it should be somewhere north of the Coruscant system.
+Just be careful not to fall into the imperial hands of allow yourself to be followed by them, without the rebels there won't be many left to fight back and we will all become slaves to the Empire.""","0:tutCont2a:""Why me?""
+1:tutCont2b:""What's in it for me?""",
+,,,,,,
+sws_mainGetDataWhyMe,DialogOptionSelected,$option == tutCont2a,"AdjustRep $personFaction.id WELCOMING 1
+AdjustRepActivePerson WELCOMING 2","""Why not? I'm not exactly spoiled for choice, and you've shown some ability to handle ... difficulties.
+
+It's not going to be a milk run, that's for sure.""","2:tutContGoDark:""What's the plan?""",
+sws_mainGetDataWhatsInIt,DialogOptionSelected,$option == tutCont2b,AddRemoveCommodity credits 2000 true,"""Ah, a mercenary. Some credits, naturally, with more along the way - and if all goes to plan, we'll be able to reconnect with the rest of the Sector, such as it is.""","2:tutContGoDark:""What's the plan?""",
+sws_mainGetDataGoDark,DialogOptionSelected,$option == tutContGoDark,"SetTextHighlights ""\""Go Dark\""""
+AddAbility go_dark 1","""First off, make sure to turn off your transponder once you undock. I've instructed the security detachment not to give you any trouble about that.
+
+If you're lucky, the pirates may even think you're one of their own and let you approach Derinkuyu without any trouble. Still, it makes sense to ""Go Dark"" as you get closer, to make sure they can't get too good a reading on your fleet.""","2:tutContEBurn:""And if they do notice me?""",
+sws_mainGetDataEBurn,DialogOptionSelected,$option == tutContEBurn,"SetTextHighlights ""\""Emergency Burn\""""
+AddAbility emergency_burn 3","""Then you're in trouble - activate ""Emergency Burn"" to get out of there, lose them, and then come back around to try again.
+
+Don't e-burn unless you really need to, though. It's hard on the ships, and will cost you more supplies to recover from. Eats up a good chunk of fuel, too.""","2:tutCont3:""Very well.""",
+sws_mainGetDataAccept,DialogOptionSelected,$option == tutCont3,CallEvent $sws_eventRef startGetData,"""Excellent. Thank you for being willing to help - come back when you've got the data. Good luck!""",0:cutCommLinkPolite:Cut the comm link,
+sws_mainComeBackNoStageMatch,PickGreeting,$sws_mainContact score:100,ShowPersonVisual,"""You should leave and forget you know me, it's safer for both of us.""",0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+# getting data from agent,,,,,,
+sws_dataContactStart,PickGreeting,"$sws_dataContact score:100
+$global.tutStage == GO_GET_DATA","ShowPersonVisual
+CallEvent $sws_eventRef endGetData",You contact the agent and exchange passphrases to verify each others' identities. The agent then transmits a data file with recent raw sensor readings of the unstable jump-points.,0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+# returned to main contact with data,,,,,,
+sws_mainContactReturnData,PickGreeting,"$sws_mainContact score:100
+$global.tutStage == GOT_DATA","ShowPersonVisual
+AddRemoveCommodity credits 5000 true
+AdjustRep $personFaction.id WELCOMING 2
+AdjustRepActivePerson WELCOMING 4
+AddText ""There's a chime in the background, and $heOrShe looks concerned.""","""You have the data! Well done.""
+
+There's a brief wait as you transmit the datafile.
+
+""Now, while the system is running a preliminary analysis of the data - I believe you're due a reward.""","tutGotDataCont1:""Is there a problem?""",
+sws_mainContactProbe1,DialogOptionSelected,$option == tutGotDataCont1,,"""Yes - the system estimates it'd take about a cycle to analyze the data and come up with a stabilization algorithm. Naturally, by then, the data would be out of date and any algorithm based on it, meaningless.
+
+If we had an AI core on hand, we could analyze the data more quickly. Fortunately, there's a survey probe somewhere in this system - one left over from the initial exploration of the Sector by the Domain. It should have at least one AI core serving as its brain.""","tutGotDataCont2:""Where is it, and why hasn't it been salvaged before?""",
+sws_mainContactProbe2,DialogOptionSelected,$option == tutGotDataCont2,,"""To answer your second question, Domain artifacts are usually protected by automated defenses that still function to this day, and this probe is no exception. And the Hegemony generally forbids civilian interference with Domain artifacts, for the sake of public safety of course.""
+
+""Desperate times, however...""",tutGotDataCont3:Continue,
+sws_mainContactProbe3,DialogOptionSelected,$option == tutGotDataCont3,"SetTextHighlights ""\""Active Sensor Burst\""""
+AddAbility sensor_burst 2
+CallEvent $sws_eventRef goSalvage","""As to where it is, my data indicates it's somewhere beyond the orbit of Pontus - get there, then head out beyond the asteroid belt, and use an ""Active Sensor Burst"". You should at the very least get a sensor contact with the probe.
+
+Head towards it, perform salvage, and bring back an AI core.
+
+If you lack the skill for a full salvage op, just pound it into scrap and scavenge through the resulting debris field - there's a good chance an AI core will survive.""
+
+(""Pontus"" is a gas giant in the outer system. To see its name on the map, you might have to turn off the ""Inhabited"" option in map filter.)","cutCommLinkPolite:""I'll see what I can do.""",
+,,,,,,
+# returned with AI core,,,,,,
+sws_mainContactReturnCore,PickGreeting,"$sws_mainContact score:100
+$global.tutStage == GOT_AI_CORE","ShowPersonVisual
+AddRemoveCommodity credits 8000 true
+AdjustRep $personFaction.id WELCOMING 3
+AdjustRepActivePerson WELCOMING 6
+AddRemoveCommodity gamma_core -1 true","""Solid work. I'll get my technicians working on this right away. In the meantime, this should cover your expenses, hopefully with a good amount left over.""",tutGotCore1:Continue,
+sws_mainContactCore1,DialogOptionSelected,$option == tutGotCore1,,"""I'll send you the stabilization algorithm when the core works it up. Once you have it, it should be a simple matter of running it using your fleet's drive field as a means of interacting with the jump-point.
+
+However, there's still the matter of the miners guarding both jump-points out of the system.""","tutGotCore2:""And you've said their forces are significant?""",
+sws_mainContactCore2,DialogOptionSelected,$option == tutGotCore2,,"""Well, it's all relative. Our security detachment could handle them easily, but as I've mentioned, it's tied down defending Ancyra.
+
+Your fleet, on the other hand... you might be able to handle them with some stellar piloting and a bit of luck, but it's best not to take such chances.
+
+Especially not when there's an alternative.""","tutGotCore3:""What alternative is that?""",
+sws_mainContactCore3,DialogOptionSelected,$option == tutGotCore3,CallEvent $sws_eventRef goRecover,"""There's a ship graveyard around Tetra. Ships that were deemed not worth the effort to restore, awaiting bulk transit to one of the ship-breaking facilities elsewhere.
+
+Now, though, they'll serve our needs. Go there and recover all the ships you can - and break the ones you can't for supplies. Make sure to bring enough crew to operate the recovered ships - perhaps an extra hundred or so will do.
+
+You'll need to transport them somehow, too - here, take this Mudskipper transport; consider it part of your reward.""","cutCommLinkPolite:""Thank you. I'll return with the ships.""",
+,,,,,,
+# back after recovering ships,,,,,,
+sws_mainContactReturnShips,PickGreeting,"$sws_mainContact score:100
+$global.tutStage == RECOVERED_SHIPS","ShowPersonVisual
+RepairAll false","""Welcome back!
+
+A bunch of rust buckets, aren't they? But put some weapons on them, get a proper refit done, and with a dedicated crew, they'll do alright. It's no worse than what the pirates have got, at any rate.","tutGotShips1:""Speaking of weapons...""",
+sws_mainContactReturnShips1,DialogOptionSelected,$option == tutGotShips1,CallEvent $sws_eventRef printRefitHint,"""Yeah, was just about to talk to you about that. Not much to buy on the open market, but we have some stores.
+
+I've already ordered local storage space to be assigned to you, and some suitable weapons transferred there - along with enough supplies to speedily bring the new ships back to full combat readiness.
+
+Use them to outfit your new ships, make sure you've got enough crew for a full complement on every ship, and then break the rogue miner defenses at the inner jump-point!","tutGotShips2:""I take it you've got the stabilization algorithm, then?""",
+sws_mainContactReturnShips2,DialogOptionSelected,$option == tutGotShips2,,"""Correct! These cores seem like they can work miracles sometimes. Let me transmit the results.
+
+Good luck to you! If you fail... well, we'll have to send the security force to do the job, and then it could get very messy.""","tutGotShips3:""It's good to know you're already working on a Plan B.""",
+sws_mainContactReturnShips3,DialogOptionSelected,$option == tutGotShips3,CallEvent $sws_eventRef goStabilize,"""Come now, it's not so grim - I have every expectation you'll succeed, or I wouldn't send you. But it's my responsibility as commander to plan for every eventuality, and not rely on a miraculous savior.
+
+Now, about those miners - the two fleets guarding the jump-point will aid each other if you engage one when the other is nearby, so it'll be an easier fight if you manage to separate them first. If you can't, it should still be a fight you can win, though.""","cutCommLinkPolite:""Copy that. I'll be back here when the job's done.""",
+,,,,,,
+# stabilized jump-point and returned to Ancyra,,,,,,
+sws_mainContactStabilized,PickGreeting,"$sws_mainContact score:100
+$global.tutStage == STABILIZED","ShowPersonVisual
+AddRemoveCommodity credits 10000 true
+AdjustRep $personFaction.id WELCOMING 5
+AdjustRepActivePerson WELCOMING 10
+CallEvent $sws_eventRef pickJangalaContact","""Well done!""
+
+$PersonPost $personLastName seems a bit giddy with excitement.
+
+""We actually did it! You just never know with these things, it's such a relief not to be cooped up in this system anymore.
+
+Here's your reward, well earned and with my gratitude.""",tutStabilized1:Continue,
+sws_mainContactStabilized1,DialogOptionSelected,$option == tutStabilized1,"SetTextHighlights $jangalaFuel
+CallEvent $sws_eventRef deliverReport","""Now, I expect the authorities at the headquarters on Jangala, in the Corvus system, would like to hear about the recent events. Would you deliver a report for me?
+
+Ask to speak with $jangalaContactPost $jangalaContactLastName when you get there.
+
+Oh, and make sure to take enough fuel to make the trip; flying in-system as you have been doesn't use fuel, so it's easy to forget that flying in hyperspace does. It's not too far, but with your current fleet you'll need at least $jangalaFuel units to get there.""",tutStabilized2:Continue,
+sws_mainContactStabilized2,DialogOptionSelected,$option == tutStabilized2,"SetTextHighlights ""\""Distress Call\""""
+AddAbility distress_call 9","""If you do manage to run out of fuel somehow, and get stuck in an uninhabited system - and that'd be a real feat on the Galatia-Corvus route, let me tell you - you can always issue a ""Distress Call"" and wait for help to arrive.""",tutStabilized3:Continue,
+sws_mainContactStabilized3,DialogOptionSelected,$option == tutStabilized3,,"""I'm also declaring a bounty on the remaining rogue miner fleets here. If you like, you can stick around here and help mop up before going to Corvus.""","cutCommLinkPolite:""Ok, I'll consider my options.""",
+,,,,,,
+,,,,,,
+# delivering report to Jangala,,,,,,
+sws_janContactReport,PickGreeting,"$sws_jangalaContact score:100
+$global.tutStage == DELIVER_REPORT","ShowPersonVisual
+AdjustRep $personFaction.id WELCOMING 5
+AdjustRepActivePerson WELCOMING 10
+CallEvent $sws_eventRef reportDelivered","Your connection request is accepted after a slight delay.
+
+""Yes, and you are? Ah, you have a report for me, let's just take a look.
+
+Galatia is back on the map? That's excellent news. Says here you've had quite a hand in it, too. That won't be forgotten.""","tutReport1:""What do I do now?""",
+sws_janContactReport1,DialogOptionSelected,$option == tutReport1,,"""I don't have anything specific for you right now, but you've got options.
+
+There's a bounty in this system right now due to unusually high pirate activity. You've already got some experience dealing with pirates, so that could be a good way to earn some credits.""",tutReport2:Continue,
+sws_janContactReport2,DialogOptionSelected,$option == tutReport2,,"""You could also try your hand at salvaging - load up on fuel, machinery, and supplies, and head for the outer systems. 
+
+It's a good idea to pick up a mission first, so you're not running blind - someone's usually offering good money to analyze this planet or that derelict, and where there's one, there's often more.""",tutReport3:Continue,
+sws_janContactReport3,DialogOptionSelected,$option == tutReport3,,"""Finally, you could take a comission with the Hegemony - due to the Galatia business, your standing is high enough that such a request would be accepted.
+
+You'll be expected to fight our enemies, though, so it's quite a commitment. If I were you, I'd hold off on it until you've got a more solid fleet behind you.""","cutCommLinkPolite:""Thanks, I'll think about it.""",

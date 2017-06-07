@@ -1,9 +1,0 @@
-{
-    "id":"sw_sdbombardment",
-    "type":"STAT_MOD",
-    "aiType":"NONE",
-    #"aiType":"CUSTOM",
-    #"aiScript":"data.shipsystems.scripts.ai.SDBombardmentAIScript",
-
-    "statsScript":"data.shipsystems.scripts.StarDestroyerBombardmentScript",
-}

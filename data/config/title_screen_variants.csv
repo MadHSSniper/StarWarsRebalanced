@@ -1,9 +1,15 @@
 variant id
+ln_wing
+int_wing
+sa_wing
+x_wing
+a_wing
+y_wing
 millenium_falcon
 mki_vic
-tie_int
-t_65
-tactical_bomber
-btl_bomber
+mkii_vic
 blockade_runner
 attack_cruiser
+mc30_frigate
+nebulon_frigate
+nebulon_imp

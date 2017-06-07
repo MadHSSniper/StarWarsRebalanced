@@ -212,5 +212,13 @@
         "l9": "reb_turbo_cannon_m"
       }
     }
-  ]
+  ],
+    "wings": [
+        "x_wing",
+        "a_wing",
+        "y_wing",
+        "y_wing",
+        "b_wing",
+        "b_wing"
+    ]
 }

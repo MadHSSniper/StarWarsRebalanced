@@ -4,9 +4,6 @@ TIE Complement,drone_tie_acclimator,,,,,,,,12,0.066,0,,0,0,,,,,,,,,,,graphics/ic
 TIE Complement,drone_tie_victory,,,,,,,,18,0.066,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,
 Concentrated Fire,sw_concentratedfire,,,,,,,,,,3,10,2,15,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
-Gravity Well Projector,sw_interdictor_system,,,,,,0.5,,,,30,,30,30,TRUE,,TRUE,TRUE,,,,,,,graphics/icons/hullsys/high_energy_focus.png
-Long Range Bombardment,sw_sdbombardment,,,0.01,,,,,,,,,,,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,graphics/icons/hullsys/high_energy_focus.png
-She's got it where it counts...,burndrive,0,,,,,,,,,5,,10,15,TRUE,,,,,TRUE,TRUE,FALSE,FALSE,,graphics/icons/hullsys/burn_drive.png
-Long Range Bombardment,sw_bombardment,,,0.01,,,,,,,,,,,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,graphics/icons/hullsys/high_energy_focus.png
-DBY-827 Range Mode,sw_dby_rangemode,,,,,,,,,,5,,10,10,TRUE,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
-Hyperspace Jump,hyperspacejump,,,,,,0.2,,,,2.5,,60,60,,,TRUE,,TRUE,,,,,,graphics/icons/hullsys/displacer.png
+Gravity Well Projector,sw_interdictor_system,,,,,,0.5,,,,30,,3,30,TRUE,,TRUE,TRUE,,,,,,TRUE,graphics/icons/hullsys/high_energy_focus.png
+DBY-827 Range Mode,sw_dby_rangemode,,,,,,,,,,5,,5,10,TRUE,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Hyperspace Jump,sw_hyperspacejump,,,,,,0.2,,,,2.5,,1,30,,,TRUE,,TRUE,,,,,,graphics/icons/hullsys/displacer.png
