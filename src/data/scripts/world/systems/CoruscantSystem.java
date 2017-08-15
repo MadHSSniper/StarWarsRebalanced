@@ -6,11 +6,13 @@ import com.fs.starfarer.api.campaign.JumpPointAPI;
 import com.fs.starfarer.api.campaign.OrbitAPI;
 import com.fs.starfarer.api.campaign.PlanetAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
+import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 import com.fs.starfarer.api.impl.campaign.ids.StarTypes;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
+import com.fs.starfarer.api.impl.campaign.procgen.CategoryGenDataSpec;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
@@ -46,10 +48,15 @@ public class CoruscantSystem implements SectorGeneratorPlugin {
         
         PlanetAPI coruscant = system.addPlanet("CoruscantPlanet", star, "Coruscant", SW_PlanetTypes.CORUSCANT, 25, 122, 12500, 365);
         coruscant.setFaction("galacticempire");
+        
+        
+        SectorEntityToken deathstar = system.addCustomEntity("death_star", "Death Star", "station_death_star", "galacticempire");
+        deathstar.setCircularOrbitPointingDown(coruscant, 5, 350, 100);
+        
         SW_AddMarket.SW_AddMarket("galacticempire",
                 coruscant,
-                null,//new ArrayList<>(Arrays.asList(Global.getSector().getStarSystem("Coruscant").getEntityById("CoruscantPlanet"))),
-                "Coruscant Trade District",
+                new ArrayList<>(Arrays.asList((SectorEntityToken) deathstar)),
+                "Trade District",
                 10,
                 new ArrayList<>(Arrays.asList(Conditions.HABITABLE,
                         Conditions.MILD_CLIMATE,

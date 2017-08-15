@@ -160,7 +160,7 @@ public class SWStoryline extends BaseEventPlugin {
         contact.setFaction(planet.getFaction().getId());
         contact.setRankId(Ranks.CITIZEN);
         contact.setPostId(Ranks.POST_BASE_COMMANDER);
-        contact.setPortraitSprite("graphics/SWRebalanced/portraits/mon_mathma.png");
+        contact.setPortraitSprite("graphics/SWRebalanced/portraits/mon_mothma.png");
 
         planet.getMarket().getCommDirectory().addPerson(contact);
 
