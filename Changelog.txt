@@ -1,7 +1,10 @@
-[2017/06/--]
+[2017/06/--]	
   (v0.-.-)
     - Added more ships to the menu/simulator;
 	- Tweaks to fighter wing stats;
+	- New custom "station";
+	- Some weapon balancing (missiles for now);
+	- Added faction descriptions:
 
 [2017/06/04]
   (v0.5.1)

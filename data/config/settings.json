@@ -3,5 +3,10 @@
 		"campaignMissions":{
 			"SW_StoryIcon":"graphics/SWRebalanced/icons/missions/SW_Story.png",
 		},
+		"portraits":{
+			"han_solo":"graphics/SWRebalanced/portraits/han_solo.png",
+			"master_yoda":"graphics/SWRebalanced/portraits/master_yoda.png",
+			"mon_mothma":"graphics/SWRebalanced/portraits/mon_mothma.png",
+		},
 	}
 }

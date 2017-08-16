@@ -1,9 +1,9 @@
 name,id,designation,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,breakProb,minPieces,maxPieces,number,Column
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
 TIE Fighter,tie_ln,Starfighter,,,350,25,400,,100,,,300,400,300,150,300,15,NONE,,0,0,1,,,1,1,,,,,,,,,,,,,,0,,,1,
-TIE Interceptor,tie_interceptor,Interceptor,,,300,20,350,,120,,,350,450,325,200,360,10,NONE,,0,0,1,,,1,1,,,,,,,,,,,,,,,,,3,
+TIE Interceptor,tie_interceptor,Interceptor,,,300,20,350,,120,,,340,450,325,200,360,10,NONE,,0,0,1,,,1,1,,,,,,,,,,,,,,,,,3,
 TIE Bomber,tie_bomber,Bomber,,,500,75,200,,100,,,140,200,200,40,120,20,OMNI,,0,0,1,,,1,1,,,,,,,,,,,,,,0,,,6,
-A-Wing,a_wing_rz1,Interceptor,,,320,25,360,,120,,,350,450,325,200,360,12,NONE,,160,0.2,1,,,1,1,,,,,,,,,,,,,,0,,,2,
+A-Wing,a_wing_rz1,Interceptor,,,320,25,360,,120,,,350,430,325,200,360,12,NONE,,160,0.2,1,,,1,1,,,,,,,,,,,,,,0,,,2,
 X-Wing,x_wing_t65,Starfighter,,,325,25,380,,110,,,325,400,300,150,300,15,NONE,,160,0.2,1,,,1,1,,,,,,,,,,,,,,0,,,4,
 Y-Wing,y_wing_btl,Bomber,,,500,50,200,,100,,,150,200,200,40,120,20,OMNI,,160,0.2,1,,,2,2,,,,,,,,,,,,,,0,,,5,
 B-Wing,b_wing_heavy,Starfighter,,,600,75,300,,90,,,130,200,200,40,120,30,OMNI,,160,0.2,1,,,1,1,,,,,,,,,,,,,,0,,,7,
